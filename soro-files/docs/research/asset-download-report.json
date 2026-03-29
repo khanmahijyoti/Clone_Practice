@@ -1,0 +1,610 @@
+{
+  "total": 121,
+  "results": [
+    {
+      "url": "https://trysoro.com/google-animated.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/google-animated.svg"
+    },
+    {
+      "url": "https://trysoro.com/logo.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/logo.svg"
+    },
+    {
+      "url": "https://trysoro.com/blue-badge.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/blue-badge.svg"
+    },
+    {
+      "url": "https://trysoro.com/chatgpt-animated.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/chatgpt-animated.svg"
+    },
+    {
+      "url": "https://trysoro.com/icon.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/icon.svg"
+    },
+    {
+      "url": "https://trysoro.com/step-1.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/step-1.svg"
+    },
+    {
+      "url": "https://trysoro.com/step-2.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/step-2.svg"
+    },
+    {
+      "url": "https://trysoro.com/step-3.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/step-3.svg"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Fcustomers.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Fdna%2Fkeywords.webp&w=128&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Fdna%2Fstyle.webp&w=128&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Fdna%2Fllms.webp&w=256&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/google.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/google.svg"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Fconfidence.webp&w=828&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Fexamples%2Fblue-bottle-coffee.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Fexamples%2Fchessodoro.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Fexamples%2Fsaint.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Fexamples%2Fhemden.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Fexamples%2Fkeyla.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Fexamples%2Finvoics.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Fexamples%2Fatlasmic.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Fintegrations%2Fwix.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Fintegrations%2Fshopify.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Fintegrations%2Fwebflow.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Fintegrations%2Fnotion.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Fintegrations%2Fhubspot.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Fintegrations%2Fwordpress.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/integrations/more.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/integrations/more.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GB.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GB.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AU.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AU.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/US.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/US.svg"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Fintegrations%2Fghost.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/TW.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/TW.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/CN.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/CN.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ES.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ES.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/HK.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/HK.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/DE.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/DE.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PT.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PT.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/FR.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/FR.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BR.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BR.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SA.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SA.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/KR.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/KR.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/JP.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/JP.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IT.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IT.svg"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Fintegrations%2Fnextjs.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PL.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PL.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/NL.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/NL.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/TR.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/TR.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/NO.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/NO.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/DK.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/DK.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/CZ.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/CZ.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/FI.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/FI.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GR.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GR.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/RO.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/RO.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/HU.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/HU.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/UA.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/UA.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BG.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BG.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SK.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SK.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/HR.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/HR.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SE.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SE.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BA.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BA.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/RS.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/RS.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MK.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MK.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AL.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AL.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SI.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SI.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IS.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IS.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AD.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AD.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/LT.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/LT.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/LV.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/LV.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IN.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IN.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BD.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BD.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/EE.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/EE.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PK.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PK.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/NP.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/NP.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ID.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ID.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/VN.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/VN.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MY.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MY.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PH.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PH.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GE.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GE.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MM.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MM.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/TH.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/TH.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AM.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AM.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AZ.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AZ.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MN.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MN.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/KZ.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/KZ.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IL.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IL.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ET.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ET.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/KE.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/KE.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SO.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SO.svg"
+    },
+    {
+      "url": "https://trysoro.com/comparison/checkmark.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/comparison/checkmark.svg"
+    },
+    {
+      "url": "https://trysoro.com/icon.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/icon.svg"
+    },
+    {
+      "url": "https://trysoro.com/comparison/cross.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/comparison/cross.svg"
+    },
+    {
+      "url": "https://trysoro.com/linkedin.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/linkedin.svg"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fjude-1.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Fben.webp&w=256&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Ffilip.webp&w=256&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fjude-2.webp&w=3840&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fluke-2.webp&w=3840&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fluke-1.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fmalik.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Flaura.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fmatt-1.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fmatt-2.webp&w=3840&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Frichmond-1.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fjonas.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fgabriel-1.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/5-stars.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/5-stars.svg"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Frichmond-2.webp&w=3840&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    },
+    {
+      "url": "https://trysoro.com/hero.webm",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/hero.webm"
+    },
+    {
+      "url": "https://trysoro.com/valueproposition/pencil-final.webm",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/valueproposition/pencil-final.webm"
+    },
+    {
+      "url": "https://trysoro.com/valueproposition/glass-final.webm",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/valueproposition/glass-final.webm"
+    },
+    {
+      "url": "https://trysoro.com/light-bulb.webm",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/light-bulb.webm"
+    },
+    {
+      "url": "https://trysoro.com/favicon.ico",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/favicon.ico"
+    },
+    {
+      "url": "https://trysoro.com/footer.webp",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/footer.webp"
+    },
+    {
+      "url": "https://trysoro.com/icon.svg",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/icon.svg"
+    },
+    {
+      "url": "https://trysoro.com/favicon-16x16.png",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/favicon-16x16.png"
+    },
+    {
+      "url": "https://trysoro.com/favicon-32x32.png",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/favicon-32x32.png"
+    },
+    {
+      "url": "https://trysoro.com/android-chrome-192x192.png",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/android-chrome-192x192.png"
+    },
+    {
+      "url": "https://trysoro.com/android-chrome-512x512.png",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/android-chrome-512x512.png"
+    },
+    {
+      "url": "https://trysoro.com/apple-touch-icon.png",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/apple-touch-icon.png"
+    },
+    {
+      "url": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Famanda.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "status": "downloaded",
+      "file": "public/assets/trysoro/_next/image"
+    }
+  ]
+}

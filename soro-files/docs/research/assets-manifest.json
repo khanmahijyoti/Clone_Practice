@@ -1,0 +1,2067 @@
+{
+  "images": [
+    {
+      "src": "https://trysoro.com/logo.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Soro"
+    },
+    {
+      "src": "https://trysoro.com/logo.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Soro"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fcustomers.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Customers"
+    },
+    {
+      "src": "https://trysoro.com/blue-badge.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Verified"
+    },
+    {
+      "src": "https://trysoro.com/google-animated.svg",
+      "alt": ""
+    },
+    {
+      "src": "https://trysoro.com/chatgpt-animated.svg",
+      "alt": ""
+    },
+    {
+      "src": "https://trysoro.com/icon.svg",
+      "alt": "Soro Integration"
+    },
+    {
+      "src": "https://trysoro.com/icon.svg",
+      "alt": "Soro Integration"
+    },
+    {
+      "src": "https://trysoro.com/icon.svg",
+      "alt": "Soro Integration"
+    },
+    {
+      "src": "https://trysoro.com/icon.svg",
+      "alt": "Soro Integration"
+    },
+    {
+      "src": "https://trysoro.com/icon.svg",
+      "alt": "Soro Integration"
+    },
+    {
+      "src": "https://trysoro.com/icon.svg",
+      "alt": "Soro Integration"
+    },
+    {
+      "src": "https://trysoro.com/icon.svg",
+      "alt": "Soro Integration"
+    },
+    {
+      "src": "https://trysoro.com/icon.svg",
+      "alt": "Soro Integration"
+    },
+    {
+      "src": "https://trysoro.com/icon.svg",
+      "alt": "Soro Integration"
+    },
+    {
+      "src": "https://trysoro.com/icon.svg",
+      "alt": "Soro Integration"
+    },
+    {
+      "src": "https://trysoro.com/icon.svg",
+      "alt": "Soro Integration"
+    },
+    {
+      "src": "https://trysoro.com/icon.svg",
+      "alt": "Soro Integration"
+    },
+    {
+      "src": "https://trysoro.com/step-1.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "1. Add your website"
+    },
+    {
+      "src": "https://trysoro.com/step-2.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "2. Get content"
+    },
+    {
+      "src": "https://trysoro.com/step-3.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "3. Publish & grow traffic"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fdna%2Fkeywords.webp&w=128&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Keyword difficulty"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fdna%2Fstyle.webp&w=128&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Style capture"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fdna%2Fllms.webp&w=256&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "AI platforms"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fconfidence.webp&w=828&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Publish with confidence"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fexamples%2Fchessodoro.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "favicon"
+    },
+    {
+      "src": "https://trysoro.com/google.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Google"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fexamples%2Fblue-bottle-coffee.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "favicon"
+    },
+    {
+      "src": "https://trysoro.com/google.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Google"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fexamples%2Fsaint.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "favicon"
+    },
+    {
+      "src": "https://trysoro.com/google.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Google"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fexamples%2Fhemden.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "favicon"
+    },
+    {
+      "src": "https://trysoro.com/google.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Google"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fexamples%2Finvoics.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "favicon"
+    },
+    {
+      "src": "https://trysoro.com/google.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Google"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fexamples%2Fkeyla.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "favicon"
+    },
+    {
+      "src": "https://trysoro.com/google.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Google"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fexamples%2Fatlasmic.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "favicon"
+    },
+    {
+      "src": "https://trysoro.com/google.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Google"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fexamples%2Fchessodoro.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "favicon"
+    },
+    {
+      "src": "https://trysoro.com/google.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Google"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fexamples%2Fblue-bottle-coffee.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "favicon"
+    },
+    {
+      "src": "https://trysoro.com/google.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Google"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fexamples%2Fsaint.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "favicon"
+    },
+    {
+      "src": "https://trysoro.com/google.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Google"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fexamples%2Fhemden.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "favicon"
+    },
+    {
+      "src": "https://trysoro.com/google.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Google"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fexamples%2Finvoics.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "favicon"
+    },
+    {
+      "src": "https://trysoro.com/google.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Google"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fexamples%2Fkeyla.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "favicon"
+    },
+    {
+      "src": "https://trysoro.com/google.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Google"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fexamples%2Fatlasmic.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "favicon"
+    },
+    {
+      "src": "https://trysoro.com/google.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Google"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fexamples%2Fchessodoro.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "favicon"
+    },
+    {
+      "src": "https://trysoro.com/google.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Google"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fexamples%2Fblue-bottle-coffee.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "favicon"
+    },
+    {
+      "src": "https://trysoro.com/google.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Google"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fexamples%2Fsaint.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "favicon"
+    },
+    {
+      "src": "https://trysoro.com/google.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Google"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fexamples%2Fhemden.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "favicon"
+    },
+    {
+      "src": "https://trysoro.com/google.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Google"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fexamples%2Finvoics.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "favicon"
+    },
+    {
+      "src": "https://trysoro.com/google.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Google"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fexamples%2Fkeyla.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "favicon"
+    },
+    {
+      "src": "https://trysoro.com/google.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Google"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fexamples%2Fatlasmic.webp&w=32&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "favicon"
+    },
+    {
+      "src": "https://trysoro.com/google.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Google"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fintegrations%2Fwordpress.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "WordPress"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fintegrations%2Fshopify.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Shopify"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fintegrations%2Fwix.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Wix"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fintegrations%2Fwebflow.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Webflow"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fintegrations%2Fnotion.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Notion"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fintegrations%2Fhubspot.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "HubSpot"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fintegrations%2Fghost.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Ghost"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fintegrations%2Fnextjs.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Next.js"
+    },
+    {
+      "src": "https://trysoro.com/integrations/more.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Other tools"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/US.svg",
+      "alt": "English"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GB.svg",
+      "alt": "English (UK)"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AU.svg",
+      "alt": "English (AU)"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/CN.svg",
+      "alt": "Chinese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/TW.svg",
+      "alt": "Chinese (TW)"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/HK.svg",
+      "alt": "Chinese (HK)"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ES.svg",
+      "alt": "Spanish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/FR.svg",
+      "alt": "French"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/DE.svg",
+      "alt": "German"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PT.svg",
+      "alt": "Portuguese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BR.svg",
+      "alt": "Brazilian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/JP.svg",
+      "alt": "Japanese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/KR.svg",
+      "alt": "Korean"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SA.svg",
+      "alt": "Arabic"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IT.svg",
+      "alt": "Italian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/US.svg",
+      "alt": "English"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GB.svg",
+      "alt": "English (UK)"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AU.svg",
+      "alt": "English (AU)"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/CN.svg",
+      "alt": "Chinese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/TW.svg",
+      "alt": "Chinese (TW)"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/HK.svg",
+      "alt": "Chinese (HK)"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ES.svg",
+      "alt": "Spanish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/FR.svg",
+      "alt": "French"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/DE.svg",
+      "alt": "German"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PT.svg",
+      "alt": "Portuguese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BR.svg",
+      "alt": "Brazilian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/JP.svg",
+      "alt": "Japanese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/KR.svg",
+      "alt": "Korean"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SA.svg",
+      "alt": "Arabic"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IT.svg",
+      "alt": "Italian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/US.svg",
+      "alt": "English"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GB.svg",
+      "alt": "English (UK)"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AU.svg",
+      "alt": "English (AU)"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/CN.svg",
+      "alt": "Chinese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/TW.svg",
+      "alt": "Chinese (TW)"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/HK.svg",
+      "alt": "Chinese (HK)"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ES.svg",
+      "alt": "Spanish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/FR.svg",
+      "alt": "French"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/DE.svg",
+      "alt": "German"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PT.svg",
+      "alt": "Portuguese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BR.svg",
+      "alt": "Brazilian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/JP.svg",
+      "alt": "Japanese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/KR.svg",
+      "alt": "Korean"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SA.svg",
+      "alt": "Arabic"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IT.svg",
+      "alt": "Italian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/US.svg",
+      "alt": "English"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GB.svg",
+      "alt": "English (UK)"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AU.svg",
+      "alt": "English (AU)"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/CN.svg",
+      "alt": "Chinese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/TW.svg",
+      "alt": "Chinese (TW)"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/HK.svg",
+      "alt": "Chinese (HK)"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ES.svg",
+      "alt": "Spanish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/FR.svg",
+      "alt": "French"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/DE.svg",
+      "alt": "German"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PT.svg",
+      "alt": "Portuguese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BR.svg",
+      "alt": "Brazilian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/JP.svg",
+      "alt": "Japanese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/KR.svg",
+      "alt": "Korean"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SA.svg",
+      "alt": "Arabic"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IT.svg",
+      "alt": "Italian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/US.svg",
+      "alt": "English"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GB.svg",
+      "alt": "English (UK)"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AU.svg",
+      "alt": "English (AU)"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/CN.svg",
+      "alt": "Chinese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/TW.svg",
+      "alt": "Chinese (TW)"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/HK.svg",
+      "alt": "Chinese (HK)"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ES.svg",
+      "alt": "Spanish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/FR.svg",
+      "alt": "French"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/DE.svg",
+      "alt": "German"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PT.svg",
+      "alt": "Portuguese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BR.svg",
+      "alt": "Brazilian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/JP.svg",
+      "alt": "Japanese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/KR.svg",
+      "alt": "Korean"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SA.svg",
+      "alt": "Arabic"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IT.svg",
+      "alt": "Italian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/US.svg",
+      "alt": "English"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GB.svg",
+      "alt": "English (UK)"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AU.svg",
+      "alt": "English (AU)"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/CN.svg",
+      "alt": "Chinese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/TW.svg",
+      "alt": "Chinese (TW)"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/HK.svg",
+      "alt": "Chinese (HK)"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ES.svg",
+      "alt": "Spanish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/FR.svg",
+      "alt": "French"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/DE.svg",
+      "alt": "German"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PT.svg",
+      "alt": "Portuguese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BR.svg",
+      "alt": "Brazilian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/JP.svg",
+      "alt": "Japanese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/KR.svg",
+      "alt": "Korean"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SA.svg",
+      "alt": "Arabic"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IT.svg",
+      "alt": "Italian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/NL.svg",
+      "alt": "Dutch"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PL.svg",
+      "alt": "Polish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/TR.svg",
+      "alt": "Turkish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SE.svg",
+      "alt": "Swedish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/DK.svg",
+      "alt": "Danish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/NO.svg",
+      "alt": "Norwegian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/FI.svg",
+      "alt": "Finnish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GR.svg",
+      "alt": "Greek"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/CZ.svg",
+      "alt": "Czech"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/RO.svg",
+      "alt": "Romanian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/HU.svg",
+      "alt": "Hungarian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/UA.svg",
+      "alt": "Ukrainian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SK.svg",
+      "alt": "Slovak"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BG.svg",
+      "alt": "Bulgarian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/NL.svg",
+      "alt": "Dutch"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PL.svg",
+      "alt": "Polish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/TR.svg",
+      "alt": "Turkish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SE.svg",
+      "alt": "Swedish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/DK.svg",
+      "alt": "Danish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/NO.svg",
+      "alt": "Norwegian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/FI.svg",
+      "alt": "Finnish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GR.svg",
+      "alt": "Greek"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/CZ.svg",
+      "alt": "Czech"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/RO.svg",
+      "alt": "Romanian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/HU.svg",
+      "alt": "Hungarian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/UA.svg",
+      "alt": "Ukrainian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SK.svg",
+      "alt": "Slovak"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BG.svg",
+      "alt": "Bulgarian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/NL.svg",
+      "alt": "Dutch"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PL.svg",
+      "alt": "Polish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/TR.svg",
+      "alt": "Turkish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SE.svg",
+      "alt": "Swedish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/DK.svg",
+      "alt": "Danish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/NO.svg",
+      "alt": "Norwegian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/FI.svg",
+      "alt": "Finnish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GR.svg",
+      "alt": "Greek"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/CZ.svg",
+      "alt": "Czech"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/RO.svg",
+      "alt": "Romanian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/HU.svg",
+      "alt": "Hungarian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/UA.svg",
+      "alt": "Ukrainian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SK.svg",
+      "alt": "Slovak"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BG.svg",
+      "alt": "Bulgarian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/NL.svg",
+      "alt": "Dutch"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PL.svg",
+      "alt": "Polish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/TR.svg",
+      "alt": "Turkish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SE.svg",
+      "alt": "Swedish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/DK.svg",
+      "alt": "Danish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/NO.svg",
+      "alt": "Norwegian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/FI.svg",
+      "alt": "Finnish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GR.svg",
+      "alt": "Greek"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/CZ.svg",
+      "alt": "Czech"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/RO.svg",
+      "alt": "Romanian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/HU.svg",
+      "alt": "Hungarian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/UA.svg",
+      "alt": "Ukrainian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SK.svg",
+      "alt": "Slovak"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BG.svg",
+      "alt": "Bulgarian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/NL.svg",
+      "alt": "Dutch"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PL.svg",
+      "alt": "Polish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/TR.svg",
+      "alt": "Turkish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SE.svg",
+      "alt": "Swedish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/DK.svg",
+      "alt": "Danish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/NO.svg",
+      "alt": "Norwegian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/FI.svg",
+      "alt": "Finnish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GR.svg",
+      "alt": "Greek"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/CZ.svg",
+      "alt": "Czech"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/RO.svg",
+      "alt": "Romanian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/HU.svg",
+      "alt": "Hungarian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/UA.svg",
+      "alt": "Ukrainian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SK.svg",
+      "alt": "Slovak"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BG.svg",
+      "alt": "Bulgarian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/NL.svg",
+      "alt": "Dutch"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PL.svg",
+      "alt": "Polish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/TR.svg",
+      "alt": "Turkish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SE.svg",
+      "alt": "Swedish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/DK.svg",
+      "alt": "Danish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/NO.svg",
+      "alt": "Norwegian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/FI.svg",
+      "alt": "Finnish"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GR.svg",
+      "alt": "Greek"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/CZ.svg",
+      "alt": "Czech"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/RO.svg",
+      "alt": "Romanian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/HU.svg",
+      "alt": "Hungarian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/UA.svg",
+      "alt": "Ukrainian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SK.svg",
+      "alt": "Slovak"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BG.svg",
+      "alt": "Bulgarian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/HR.svg",
+      "alt": "Croatian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SI.svg",
+      "alt": "Slovenian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/RS.svg",
+      "alt": "Serbian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BA.svg",
+      "alt": "Bosnian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MK.svg",
+      "alt": "Macedonian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AL.svg",
+      "alt": "Albanian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IS.svg",
+      "alt": "Icelandic"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AD.svg",
+      "alt": "Catalan"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ES.svg",
+      "alt": "Galician"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GB.svg",
+      "alt": "Welsh"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/LT.svg",
+      "alt": "Lithuanian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/LV.svg",
+      "alt": "Latvian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/EE.svg",
+      "alt": "Estonian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IN.svg",
+      "alt": "Hindi"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/HR.svg",
+      "alt": "Croatian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SI.svg",
+      "alt": "Slovenian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/RS.svg",
+      "alt": "Serbian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BA.svg",
+      "alt": "Bosnian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MK.svg",
+      "alt": "Macedonian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AL.svg",
+      "alt": "Albanian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IS.svg",
+      "alt": "Icelandic"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AD.svg",
+      "alt": "Catalan"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ES.svg",
+      "alt": "Galician"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GB.svg",
+      "alt": "Welsh"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/LT.svg",
+      "alt": "Lithuanian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/LV.svg",
+      "alt": "Latvian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/EE.svg",
+      "alt": "Estonian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IN.svg",
+      "alt": "Hindi"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/HR.svg",
+      "alt": "Croatian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SI.svg",
+      "alt": "Slovenian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/RS.svg",
+      "alt": "Serbian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BA.svg",
+      "alt": "Bosnian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MK.svg",
+      "alt": "Macedonian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AL.svg",
+      "alt": "Albanian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IS.svg",
+      "alt": "Icelandic"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AD.svg",
+      "alt": "Catalan"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ES.svg",
+      "alt": "Galician"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GB.svg",
+      "alt": "Welsh"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/LT.svg",
+      "alt": "Lithuanian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/LV.svg",
+      "alt": "Latvian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/EE.svg",
+      "alt": "Estonian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IN.svg",
+      "alt": "Hindi"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/HR.svg",
+      "alt": "Croatian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SI.svg",
+      "alt": "Slovenian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/RS.svg",
+      "alt": "Serbian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BA.svg",
+      "alt": "Bosnian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MK.svg",
+      "alt": "Macedonian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AL.svg",
+      "alt": "Albanian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IS.svg",
+      "alt": "Icelandic"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AD.svg",
+      "alt": "Catalan"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ES.svg",
+      "alt": "Galician"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GB.svg",
+      "alt": "Welsh"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/LT.svg",
+      "alt": "Lithuanian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/LV.svg",
+      "alt": "Latvian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/EE.svg",
+      "alt": "Estonian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IN.svg",
+      "alt": "Hindi"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/HR.svg",
+      "alt": "Croatian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SI.svg",
+      "alt": "Slovenian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/RS.svg",
+      "alt": "Serbian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BA.svg",
+      "alt": "Bosnian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MK.svg",
+      "alt": "Macedonian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AL.svg",
+      "alt": "Albanian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IS.svg",
+      "alt": "Icelandic"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AD.svg",
+      "alt": "Catalan"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ES.svg",
+      "alt": "Galician"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GB.svg",
+      "alt": "Welsh"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/LT.svg",
+      "alt": "Lithuanian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/LV.svg",
+      "alt": "Latvian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/EE.svg",
+      "alt": "Estonian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IN.svg",
+      "alt": "Hindi"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/HR.svg",
+      "alt": "Croatian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SI.svg",
+      "alt": "Slovenian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/RS.svg",
+      "alt": "Serbian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BA.svg",
+      "alt": "Bosnian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MK.svg",
+      "alt": "Macedonian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AL.svg",
+      "alt": "Albanian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IS.svg",
+      "alt": "Icelandic"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AD.svg",
+      "alt": "Catalan"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ES.svg",
+      "alt": "Galician"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GB.svg",
+      "alt": "Welsh"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/LT.svg",
+      "alt": "Lithuanian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/LV.svg",
+      "alt": "Latvian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/EE.svg",
+      "alt": "Estonian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IN.svg",
+      "alt": "Hindi"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BD.svg",
+      "alt": "Bengali"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PK.svg",
+      "alt": "Urdu"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/NP.svg",
+      "alt": "Nepali"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/TH.svg",
+      "alt": "Thai"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/VN.svg",
+      "alt": "Vietnamese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ID.svg",
+      "alt": "Indonesian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MY.svg",
+      "alt": "Malay"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PH.svg",
+      "alt": "Filipino"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MM.svg",
+      "alt": "Burmese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GE.svg",
+      "alt": "Georgian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AM.svg",
+      "alt": "Armenian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AZ.svg",
+      "alt": "Azerbaijani"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/KZ.svg",
+      "alt": "Kazakh"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MN.svg",
+      "alt": "Mongolian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IL.svg",
+      "alt": "Hebrew"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ET.svg",
+      "alt": "Amharic"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/KE.svg",
+      "alt": "Swahili"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SO.svg",
+      "alt": "Somali"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BD.svg",
+      "alt": "Bengali"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PK.svg",
+      "alt": "Urdu"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/NP.svg",
+      "alt": "Nepali"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/TH.svg",
+      "alt": "Thai"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/VN.svg",
+      "alt": "Vietnamese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ID.svg",
+      "alt": "Indonesian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MY.svg",
+      "alt": "Malay"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PH.svg",
+      "alt": "Filipino"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MM.svg",
+      "alt": "Burmese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GE.svg",
+      "alt": "Georgian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AM.svg",
+      "alt": "Armenian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AZ.svg",
+      "alt": "Azerbaijani"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/KZ.svg",
+      "alt": "Kazakh"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MN.svg",
+      "alt": "Mongolian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IL.svg",
+      "alt": "Hebrew"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ET.svg",
+      "alt": "Amharic"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/KE.svg",
+      "alt": "Swahili"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SO.svg",
+      "alt": "Somali"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BD.svg",
+      "alt": "Bengali"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PK.svg",
+      "alt": "Urdu"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/NP.svg",
+      "alt": "Nepali"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/TH.svg",
+      "alt": "Thai"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/VN.svg",
+      "alt": "Vietnamese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ID.svg",
+      "alt": "Indonesian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MY.svg",
+      "alt": "Malay"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PH.svg",
+      "alt": "Filipino"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MM.svg",
+      "alt": "Burmese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GE.svg",
+      "alt": "Georgian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AM.svg",
+      "alt": "Armenian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AZ.svg",
+      "alt": "Azerbaijani"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/KZ.svg",
+      "alt": "Kazakh"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MN.svg",
+      "alt": "Mongolian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IL.svg",
+      "alt": "Hebrew"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ET.svg",
+      "alt": "Amharic"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/KE.svg",
+      "alt": "Swahili"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SO.svg",
+      "alt": "Somali"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BD.svg",
+      "alt": "Bengali"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PK.svg",
+      "alt": "Urdu"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/NP.svg",
+      "alt": "Nepali"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/TH.svg",
+      "alt": "Thai"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/VN.svg",
+      "alt": "Vietnamese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ID.svg",
+      "alt": "Indonesian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MY.svg",
+      "alt": "Malay"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PH.svg",
+      "alt": "Filipino"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MM.svg",
+      "alt": "Burmese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GE.svg",
+      "alt": "Georgian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AM.svg",
+      "alt": "Armenian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AZ.svg",
+      "alt": "Azerbaijani"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/KZ.svg",
+      "alt": "Kazakh"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MN.svg",
+      "alt": "Mongolian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IL.svg",
+      "alt": "Hebrew"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ET.svg",
+      "alt": "Amharic"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/KE.svg",
+      "alt": "Swahili"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SO.svg",
+      "alt": "Somali"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BD.svg",
+      "alt": "Bengali"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PK.svg",
+      "alt": "Urdu"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/NP.svg",
+      "alt": "Nepali"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/TH.svg",
+      "alt": "Thai"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/VN.svg",
+      "alt": "Vietnamese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ID.svg",
+      "alt": "Indonesian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MY.svg",
+      "alt": "Malay"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PH.svg",
+      "alt": "Filipino"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MM.svg",
+      "alt": "Burmese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GE.svg",
+      "alt": "Georgian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AM.svg",
+      "alt": "Armenian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AZ.svg",
+      "alt": "Azerbaijani"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/KZ.svg",
+      "alt": "Kazakh"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MN.svg",
+      "alt": "Mongolian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IL.svg",
+      "alt": "Hebrew"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ET.svg",
+      "alt": "Amharic"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/KE.svg",
+      "alt": "Swahili"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SO.svg",
+      "alt": "Somali"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/BD.svg",
+      "alt": "Bengali"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PK.svg",
+      "alt": "Urdu"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/NP.svg",
+      "alt": "Nepali"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/TH.svg",
+      "alt": "Thai"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/VN.svg",
+      "alt": "Vietnamese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ID.svg",
+      "alt": "Indonesian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MY.svg",
+      "alt": "Malay"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/PH.svg",
+      "alt": "Filipino"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MM.svg",
+      "alt": "Burmese"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GE.svg",
+      "alt": "Georgian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AM.svg",
+      "alt": "Armenian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/AZ.svg",
+      "alt": "Azerbaijani"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/KZ.svg",
+      "alt": "Kazakh"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/MN.svg",
+      "alt": "Mongolian"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/IL.svg",
+      "alt": "Hebrew"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/ET.svg",
+      "alt": "Amharic"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/KE.svg",
+      "alt": "Swahili"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/SO.svg",
+      "alt": "Somali"
+    },
+    {
+      "src": "https://trysoro.com/icon.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "SORO"
+    },
+    {
+      "src": "https://trysoro.com/comparison/checkmark.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Yes"
+    },
+    {
+      "src": "https://trysoro.com/comparison/cross.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "No"
+    },
+    {
+      "src": "https://trysoro.com/comparison/cross.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "No"
+    },
+    {
+      "src": "https://trysoro.com/comparison/checkmark.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Yes"
+    },
+    {
+      "src": "https://trysoro.com/comparison/checkmark.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Yes"
+    },
+    {
+      "src": "https://trysoro.com/comparison/cross.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "No"
+    },
+    {
+      "src": "https://trysoro.com/comparison/checkmark.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Yes"
+    },
+    {
+      "src": "https://trysoro.com/comparison/checkmark.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Yes"
+    },
+    {
+      "src": "https://trysoro.com/comparison/cross.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "No"
+    },
+    {
+      "src": "https://trysoro.com/comparison/checkmark.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Yes"
+    },
+    {
+      "src": "https://trysoro.com/comparison/cross.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "No"
+    },
+    {
+      "src": "https://trysoro.com/comparison/cross.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "No"
+    },
+    {
+      "src": "https://trysoro.com/comparison/checkmark.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Yes"
+    },
+    {
+      "src": "https://trysoro.com/comparison/cross.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "No"
+    },
+    {
+      "src": "https://trysoro.com/comparison/cross.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "No"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fben.webp&w=256&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Ben"
+    },
+    {
+      "src": "https://trysoro.com/linkedin.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "LinkedIn"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ffilip.webp&w=256&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Filip"
+    },
+    {
+      "src": "https://trysoro.com/linkedin.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "LinkedIn"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fjude-1.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Jude Morrison"
+    },
+    {
+      "src": "https://trysoro.com/blue-badge.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Verified"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fjude-2.webp&w=3840&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Jude Morrison testimonial"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fluke-1.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Luke Narus"
+    },
+    {
+      "src": "https://trysoro.com/blue-badge.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Verified"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fluke-2.webp&w=3840&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Luke Narus testimonial"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fmalik.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Malik Jackson"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fmatt-1.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Matt Armstrong"
+    },
+    {
+      "src": "https://trysoro.com/blue-badge.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Verified"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fmatt-2.webp&w=3840&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Matt Armstrong testimonial"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Flaura.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Laura Hayes"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fjonas.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Jonas Bartasius"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fgabriel-1.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Gabriel Cicelis"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Frichmond-1.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Richmond Pak"
+    },
+    {
+      "src": "https://trysoro.com/blue-badge.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Verified"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Frichmond-2.webp&w=3840&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Richmond Pak testimonial"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Famanda.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Amanda Clark"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fluke-1.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Luke Narus"
+    },
+    {
+      "src": "https://trysoro.com/blue-badge.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Verified"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fluke-2.webp&w=3840&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Luke Narus testimonial"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fmalik.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Malik Jackson"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fmatt-1.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Matt Armstrong"
+    },
+    {
+      "src": "https://trysoro.com/blue-badge.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Verified"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fmatt-2.webp&w=3840&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Matt Armstrong testimonial"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fjude-1.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Jude Morrison"
+    },
+    {
+      "src": "https://trysoro.com/blue-badge.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Verified"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fjude-2.webp&w=3840&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Jude Morrison testimonial"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Flaura.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Laura Hayes"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fjonas.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Jonas Bartasius"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Fgabriel-1.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Gabriel Cicelis"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Frichmond-1.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Richmond Pak"
+    },
+    {
+      "src": "https://trysoro.com/blue-badge.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Verified"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Frichmond-2.webp&w=3840&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Richmond Pak testimonial"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Ftestimonials%2Famanda.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Amanda Clark"
+    },
+    {
+      "src": "https://trysoro.com/_next/image?url=%2Fcustomers.webp&w=96&q=75&dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Customers"
+    },
+    {
+      "src": "https://trysoro.com/logo.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "Soro"
+    },
+    {
+      "src": "https://trysoro.com/5-stars.svg?dpl=dpl_CKzB18tnVhsxeZqmDp2AsN3jUWUP",
+      "alt": "5 stars rating"
+    }
+  ],
+  "videos": [
+    {
+      "src": "https://trysoro.com/hero.webm",
+      "poster": ""
+    },
+    {
+      "src": "https://trysoro.com/valueproposition/glass-final.webm",
+      "poster": ""
+    },
+    {
+      "src": "https://trysoro.com/valueproposition/pencil-final.webm",
+      "poster": ""
+    },
+    {
+      "src": "https://trysoro.com/light-bulb.webm",
+      "poster": ""
+    },
+    {
+      "src": "",
+      "poster": ""
+    },
+    {
+      "src": "",
+      "poster": ""
+    },
+    {
+      "src": "",
+      "poster": "https://trysoro.com/footer.webp"
+    }
+  ],
+  "favicons": [
+    {
+      "href": "/favicon.ico",
+      "rel": "icon",
+      "sizes": "any"
+    },
+    {
+      "href": "/icon.svg",
+      "rel": "icon",
+      "sizes": null
+    },
+    {
+      "href": "/favicon-16x16.png",
+      "rel": "icon",
+      "sizes": "16x16"
+    },
+    {
+      "href": "/favicon-32x32.png",
+      "rel": "icon",
+      "sizes": "32x32"
+    },
+    {
+      "href": "/android-chrome-192x192.png",
+      "rel": "icon",
+      "sizes": "192x192"
+    },
+    {
+      "href": "/android-chrome-512x512.png",
+      "rel": "icon",
+      "sizes": "512x512"
+    },
+    {
+      "href": "/apple-touch-icon.png",
+      "rel": "apple-touch-icon",
+      "sizes": "180x180"
+    }
+  ]
+}
