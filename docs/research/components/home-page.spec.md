@@ -1,7 +1,7 @@
 # HomePage Specification
 
 ## Overview
-- **Target file:** `src/app/page.tsx`
+- **Target file:** `src/app/[[...slug]]/page.tsx`
 - **Screenshot:** `docs/design-references/f4-desktop-full.png`
 - **Interaction model:** scroll-driven + hover + time-driven
 
@@ -21,7 +21,7 @@
 - N/A
 
 ## Assets
-- Source snapshot: `public/f4-snapshot.html`
+- Mirrored pages: `public/mirror/index.html`, `public/mirror/lite/index.html`, `public/mirror/download/index.html`, `public/mirror/docs/index.html`, `public/mirror/wiki/index.html`
 - Favicons/manifest references:
   - https://framerusercontent.com/images/50hrX7rnwBlg1EBGAALDrF145U.svg
   - https://framerusercontent.com/images/PUsiMGliBRvQ9dJtPq4oY0G5Jms.svg

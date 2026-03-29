@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="icon" href="/download-portal/favicon-white.svg" type="image/svg+xml" media="(prefers-color-scheme: dark)" />
+  <link rel="icon" href="/download-portal/favicon-black.svg" type="image/svg+xml" media="(prefers-color-scheme: light)" />
+  <link rel="icon" href="/download-portal/favicon-white.svg" type="image/svg+xml" />
+
+  <title>F4 Downloads | Windows &amp; macOS</title>
+  <meta name="description" content="Download the F4 desktop app for Windows and macOS. Sign in to access the secure download portal for your organization." />
+  <link rel="canonical" href="/download/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="F4" />
+  <meta property="og:title" content="F4 Downloads | Windows &amp; macOS" />
+  <meta property="og:description" content="Download the F4 desktop app for Windows and macOS. Sign in to access the secure download portal for your organization." />
+  <meta property="og:url" content="/download/" />
+  <meta property="og:image" content="/download/download-portal/favicon-white.svg" />
+  <meta property="og:image:alt" content="F4" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="F4 Downloads | Windows &amp; macOS" />
+  <meta name="twitter:description" content="Download the F4 desktop app for Windows and macOS. Sign in to access the secure download portal for your organization." />
+  <meta name="twitter:image" content="/download/download-portal/favicon-white.svg" />
+  <script>
+    (function () {
+      const analyticsEnabled = String('true').toLowerCase() === 'true';
+      const analyticsLegacyEnabled = String('true').toLowerCase() === 'true';
+      const stitchedId = 'G-STMHM3HM8P';
+      const legacyId = 'G-NCEH9G15TX';
+      if (!analyticsEnabled) {
+        return;
+      }
+      const host = (window.location && window.location.hostname) || '';
+      if (!host || host === 'localhost' || host === '127.0.0.1' || host.endsWith('.local')) {
+        return;
+      }
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { window.dataLayer.push(arguments); }
+      window.gtag = window.gtag || gtag;
+      gtag('js', new Date());
+      if (analyticsLegacyEnabled && legacyId) {
+        gtag('config', legacyId, { anonymize_ip: true });
+      }
+      if (stitchedId) {
+        gtag('config', stitchedId, { anonymize_ip: true, send_page_view: false });
+      }
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(stitchedId);
+      document.head.appendChild(script);
+    })();
+  </script>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "name": "F4",
+          "url": "",
+          "logo": "/download/download-portal/favicon-white.svg"
+        },
+        {
+          "@type": "WebSite",
+          "name": "F4 Downloads",
+          "url": "/download/"
+        }
+      ]
+    }
+  </script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Rajdhani:wght@600;700&display=swap');
+    :root {
+      color-scheme: dark;
+      --f4-bg: #08090A;
+      --f4-panel: rgba(16, 19, 25, 0.9);
+      --f4-panel-strong: rgba(8, 9, 10, 0.96);
+      --f4-surface: rgba(255, 255, 255, 0.05);
+      --f4-border: rgba(255, 255, 255, 0.1);
+      --f4-border-strong: rgba(255, 255, 255, 0.18);
+      --f4-text: #F4F4F5;
+      --f4-muted: #868D93;
+      --f4-accent: #E9C92F;
+      --f4-accent-strong: #F2CF2F;
+      --f4-accent-soft: rgba(233, 201, 47, 0.18);
+      --f4-highlight: rgba(93, 204, 238, 0.14);
+      --f4-shadow: 0 24px 64px rgba(0, 0, 0, 0.38);
+      --f4-shadow-soft: 0 14px 30px rgba(0, 0, 0, 0.28);
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'IBM Plex Sans', 'Segoe UI', sans-serif;
+      margin: 0;
+      color: var(--f4-text);
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 8% -12%, rgba(233, 201, 47, 0.22), transparent 28%),
+        radial-gradient(circle at 86% 8%, rgba(93, 204, 238, 0.12), transparent 26%),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent 24%),
+        var(--f4-bg);
+      position: relative;
+      overflow-x: hidden;
+    }
+    body::before,
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+    }
+    body::before {
+      background:
+        radial-gradient(circle at 20% 16%, rgba(255, 255, 255, 0.12), transparent 20%),
+        radial-gradient(circle at 78% 22%, rgba(255, 255, 255, 0.08), transparent 18%);
+      filter: blur(44px);
+      opacity: 0.48;
+    }
+    body::after {
+      background-image:
+        linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+      background-size: 72px 72px;
+      mask-image: radial-gradient(circle at center, black, transparent 80%);
+      opacity: 0.2;
+    }
+    header,
+    main,
+    footer {
+      position: relative;
+      z-index: 1;
+    }
+    header {
+      padding: 22px 24px;
+      border-bottom: 1px solid var(--f4-border);
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02)),
+        rgba(8, 9, 10, 0.84);
+      position: sticky;
+      top: 0;
+      backdrop-filter: blur(24px);
+      box-shadow: var(--f4-shadow-soft);
+      z-index: 4;
+    }
+    .header-inner {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 14px;
+      color: var(--f4-accent);
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+    }
+    .eyebrow::before {
+      content: "";
+      width: 36px;
+      height: 1px;
+      background: currentColor;
+      opacity: 0.65;
+    }
+    h1 {
+      margin: 0;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: clamp(2.8rem, 6vw, 5.1rem);
+      line-height: 0.9;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .header-inner p {
+      max-width: 58ch;
+      margin: 14px 0 0;
+      color: var(--f4-muted);
+      line-height: 1.65;
+    }
+    main {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 32px 24px 44px;
+      display: grid;
+      gap: 20px;
+    }
+    .card {
+      position: relative;
+      overflow: hidden;
+      border: 1px solid var(--f4-border);
+      border-radius: 24px;
+      padding: 24px;
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02)),
+        var(--f4-panel);
+      backdrop-filter: blur(24px);
+      box-shadow: var(--f4-shadow);
+    }
+    .card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(135deg, rgba(233, 201, 47, 0.14), transparent 36%),
+        linear-gradient(315deg, rgba(93, 204, 238, 0.08), transparent 46%);
+      opacity: 0.8;
+      pointer-events: none;
+    }
+    .card > * {
+      position: relative;
+      z-index: 1;
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 1.65rem;
+      line-height: 1;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+    p {
+      margin: 10px 0;
+      color: var(--f4-muted);
+      line-height: 1.65;
+    }
+    .legal-inline {
+      max-width: 64ch;
+    }
+    .legal-inline a {
+      color: var(--f4-accent);
+      text-decoration: none;
+    }
+    .legal-inline a:hover {
+      text-decoration: underline;
+    }
+    .muted {
+      color: var(--f4-muted);
+      font-size: 13px;
+    }
+    .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+    a.btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 52px;
+      padding: 12px 18px;
+      border-radius: 14px;
+      text-decoration: none;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      border: 1px solid var(--f4-accent);
+      background: linear-gradient(120deg, var(--f4-accent) 0%, var(--f4-accent-strong) 100%);
+      color: #111111;
+      transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease, background 0.12s ease;
+    }
+    a.btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 12px 28px rgba(233, 201, 47, 0.22);
+    }
+    a.btn.secondary {
+      border-color: var(--f4-border-strong);
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--f4-text);
+      box-shadow: none;
+    }
+    a.btn.secondary:hover {
+      border-color: var(--f4-accent);
+      background: var(--f4-accent-soft);
+      box-shadow: none;
+    }
+    .lite-row { width: 100%; }
+    a.btn.lite-btn {
+      width: 100%;
+      min-height: 92px;
+      font-size: clamp(1.45rem, 4vw, 2rem);
+      letter-spacing: 0.18em;
+    }
+    footer {
+      border-top: 1px solid var(--f4-border);
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.015)),
+        rgba(8, 9, 10, 0.92);
+      backdrop-filter: blur(24px);
+      padding: 18px 24px;
+    }
+    .footer-inner {
+      max-width: 1080px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      align-items: center;
+      justify-content: space-between;
+      color: var(--f4-muted);
+      font-size: 13px;
+    }
+    .footer-links {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .footer-links a {
+      color: var(--f4-text);
+      text-decoration: none;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--f4-border);
+      background: rgba(255, 255, 255, 0.04);
+      transition: border-color 0.12s ease, color 0.12s ease, background 0.12s ease;
+    }
+    .footer-links a:hover {
+      color: var(--f4-accent);
+      border-color: rgba(233, 201, 47, 0.4);
+      background: rgba(233, 201, 47, 0.08);
+    }
+    @media (max-width: 640px) {
+      header,
+      main,
+      footer {
+        padding-left: 18px;
+        padding-right: 18px;
+      }
+      .card {
+        border-radius: 20px;
+        padding: 20px;
+      }
+      h1 {
+        font-size: clamp(2.3rem, 14vw, 3.8rem);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="eyebrow">F4 Delivery</div>
+      <h1>F4 Downloads</h1>
+      <p>Desktop builds, release notes, and secure delivery for the F4 platform.</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2 style="margin:0 0 8px;">Try lite</h2>
+      <p>Create or use an F4 account to access the lite build and its download flow.</p>
+      <div class="row lite-row">
+        <a class="btn lite-btn" href="/download/">Start lite</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2 style="margin:0 0 8px;">Sign in to download</h2>
+      <p>Sign in to access the download portal for your organization.</p>
+      <div class="row">
+        <a class="btn" href="/download/">Sign in</a>
+        <a class="btn secondary" href="/">Main site</a>
+        <a class="btn secondary" href="/docs/">Documentation</a>
+        <a class="btn secondary" href="/wiki/">Wiki</a>
+      </div>
+      <p class="muted legal-inline" style="margin-top:12px;">
+        By downloading the application, you agree to the
+        <a href="/download/terms" target="_blank" rel="noopener noreferrer">Terms of Service</a>.
+      </p>
+      <p class="muted" style="margin-top:12px;">If you're already signed in, you'll be sent to the portal automatically.</p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div>© F4 Industries, Inc.</div>
+      <div class="footer-links">
+        <a href="/">f4.dev</a>
+        <a href="/docs/">docs</a>
+        <a href="/wiki/">wiki</a>
+        <a href="/download/terms">terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      const STORY_ID_KEY = 'f4.analytics.story_id';
+      const REF_SURFACE_KEY = 'f4.analytics.ref_surface';
+      const REF_STEP_KEY = 'f4.analytics.ref_step';
+
+      function newAnalyticsId(prefix) {
+        if (window.crypto && typeof window.crypto.randomUUID === 'function') {
+          return `${prefix}_${window.crypto.randomUUID()}`;
+        }
+        return `${prefix}_${Date.now()}_${Math.floor(Math.random() * 1e9)}`;
+      }
+
+      function storageGet(storage, key) {
+        try {
+          return storage ? storage.getItem(key) : null;
+        } catch (_) {
+          return null;
+        }
+      }
+
+      function storageSet(storage, key, value) {
+        try {
+          if (storage) storage.setItem(key, value);
+        } catch (_) {
+          // ignore
+        }
+      }
+
+      function getOrCreateStoryId() {
+        const existing = storageGet(window.localStorage, STORY_ID_KEY);
+        if (existing) return existing;
+        const generated = newAnalyticsId('story');
+        storageSet(window.localStorage, STORY_ID_KEY, generated);
+        return generated;
+      }
+
+      function safeUrl(raw, base) {
+        try {
+          return new URL(raw, base || window.location.href);
+        } catch (_) {
+          return null;
+        }
+      }
+
+      function syncStoryContextFromQuery() {
+        const params = new URLSearchParams(window.location.search || '');
+        const storyId = (params.get('f4_story_id') || '').trim();
+        const refSurface = (params.get('f4_ref_surface') || '').trim();
+        const refStep = (params.get('f4_ref_step') || '').trim();
+        if (storyId) storageSet(window.localStorage, STORY_ID_KEY, storyId);
+        if (refSurface) storageSet(window.sessionStorage, REF_SURFACE_KEY, refSurface);
+        if (refStep) storageSet(window.sessionStorage, REF_STEP_KEY, refStep);
+      }
+
+      function isF4Host(hostname) {
+        return !!hostname && (hostname === 'f4.dev' || hostname.endsWith('.f4.dev'));
+      }
+
+      function decorateF4HandoffUrl(rawUrl, stepName) {
+        const url = safeUrl(rawUrl);
+        if (!url || !isF4Host(url.hostname) || url.hostname === window.location.hostname) {
+          return rawUrl;
+        }
+        url.searchParams.set('f4_story_id', getOrCreateStoryId());
+        url.searchParams.set('f4_ref_surface', 'web_download');
+        url.searchParams.set('f4_ref_step', stepName);
+        return url.toString();
+      }
+
+      syncStoryContextFromQuery();
+
+      document.querySelectorAll('a[href]').forEach(function (anchor) {
+        const href = anchor.getAttribute('href');
+        if (!href) return;
+        const url = safeUrl(href);
+        if (!url) return;
+
+        if (url.pathname === '/auth' || url.pathname.endsWith('/auth')) {
+          url.searchParams.set('return_to', window.location.href);
+          anchor.setAttribute('href', url.toString());
+          return;
+        }
+
+        if (isF4Host(url.hostname) && url.hostname !== window.location.hostname) {
+          anchor.setAttribute('href', decorateF4HandoffUrl(url.toString(), 'landing_nav_click'));
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

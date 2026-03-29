@@ -1,0 +1,1810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Sign in to F4 Downloads to access installers and release notes." />
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="canonical" href="/download/auth" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="F4 Downloads" />
+  <meta property="og:title" content="F4 Downloads - Sign In / Register" />
+  <meta property="og:description" content="Sign in to F4 Downloads to access installers and release notes." />
+  <meta property="og:url" content="/download/auth" />
+  <meta property="og:image" content="/download/download-portal/favicon-black.svg" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="F4 Downloads - Sign In / Register" />
+  <meta name="twitter:description" content="Sign in to F4 Downloads to access installers and release notes." />
+  <meta name="twitter:image" content="/download/download-portal/favicon-black.svg" />
+  <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin-allow-popups" />
+  <link rel="icon" href="/download-portal/favicon-white.svg" type="image/svg+xml" media="(prefers-color-scheme: dark)" />
+  <link rel="icon" href="/download-portal/favicon-black.svg" type="image/svg+xml" media="(prefers-color-scheme: light)" />
+  <link rel="icon" href="/download-portal/favicon-white.svg" type="image/svg+xml" />
+  <title>F4 Downloads - Sign In / Register</title>
+  <script>
+    (function () {
+      const analyticsEnabled = String('true').toLowerCase() === 'true';
+      const analyticsLegacyEnabled = String('true').toLowerCase() === 'true';
+      const analyticsV2Enabled = String('false').toLowerCase() === 'true';
+      window.__F4_ANALYTICS_ENABLED = analyticsEnabled;
+      window.__F4_ANALYTICS_LEGACY_ENABLED = analyticsLegacyEnabled;
+      window.__F4_ANALYTICS_V2_ENABLED = analyticsV2Enabled;
+      if (!analyticsEnabled) {
+        return;
+      }
+
+      const stitchedId = 'G-STMHM3HM8P';
+      const legacyId = 'G-NCEH9G15TX';
+      const host = (window.location && window.location.hostname) || '';
+      if (!host || host === 'localhost' || host === '127.0.0.1' || host.endsWith('.local')) {
+        return;
+      }
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { window.dataLayer.push(arguments); }
+      window.gtag = window.gtag || gtag;
+
+      gtag('js', new Date());
+      if (analyticsLegacyEnabled && legacyId) {
+        gtag('config', legacyId, { anonymize_ip: true });
+      }
+      if (stitchedId) {
+        gtag('config', stitchedId, { anonymize_ip: true, send_page_view: false });
+      }
+
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(stitchedId);
+      document.head.appendChild(script);
+    })();
+  </script>
+  <!-- NOTE: Google GSI loader is unversioned and may change; pinning SRI would be brittle and can break auth. -->
+  <!-- Also: do NOT set crossorigin here; it triggers a CORS fetch and the GSI endpoint does not send ACAO. -->
+  <script src="https://accounts.google.com/gsi/client" async defer referrerpolicy="no-referrer"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&family=Rajdhani:wght@600;700&display=swap');
+    :root {
+      color-scheme: dark;
+      --f4-bg: #08090A;
+      --f4-panel: rgba(16, 19, 25, 0.9);
+      --f4-panel-strong: rgba(8, 9, 10, 0.96);
+      --f4-surface: rgba(255, 255, 255, 0.05);
+      --f4-surface-strong: rgba(255, 255, 255, 0.08);
+      --f4-border: rgba(255, 255, 255, 0.1);
+      --f4-border-strong: rgba(255, 255, 255, 0.18);
+      --f4-text: #F4F4F5;
+      --f4-muted: #868D93;
+      --f4-muted-strong: #C3C7CC;
+      --f4-accent: #E9C92F;
+      --f4-accent-strong: #F2CF2F;
+      --f4-accent-soft: rgba(233, 201, 47, 0.18);
+      --f4-shadow: 0 24px 64px rgba(0, 0, 0, 0.38);
+      --f4-shadow-soft: 0 14px 30px rgba(0, 0, 0, 0.28);
+      --f4-highlight: rgba(93, 204, 238, 0.18);
+      --success: #69db7c;
+      --error: #ff6b6b;
+    }
+    * { box-sizing: border-box; }
+    html, body { min-height: 100%; }
+    body {
+      font-family: 'IBM Plex Sans', 'Segoe UI', sans-serif;
+      margin: 0;
+      color: var(--f4-text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background:
+        radial-gradient(circle at 10% -10%, rgba(233, 201, 47, 0.2), transparent 28%),
+        radial-gradient(circle at 88% 8%, rgba(93, 204, 238, 0.12), transparent 26%),
+        radial-gradient(circle at 50% 110%, rgba(233, 201, 47, 0.08), transparent 30%),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent 24%),
+        var(--f4-bg);
+      position: relative;
+      overflow-x: hidden;
+    }
+    body::before,
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+    }
+    body::before {
+      background:
+        radial-gradient(circle at 20% 16%, rgba(255, 255, 255, 0.12), transparent 20%),
+        radial-gradient(circle at 78% 22%, rgba(255, 255, 255, 0.08), transparent 18%),
+        radial-gradient(circle at 62% 84%, rgba(255, 255, 255, 0.06), transparent 16%);
+      filter: blur(42px);
+      opacity: 0.55;
+    }
+    body::after {
+      background-image:
+        linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+      background-size: 72px 72px;
+      mask-image: radial-gradient(circle at center, black, transparent 82%);
+      opacity: 0.22;
+    }
+    header,
+    main,
+    footer {
+      position: relative;
+      z-index: 1;
+    }
+    header {
+      padding: 22px 24px;
+      border-bottom: 1px solid var(--f4-border);
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02)),
+        rgba(8, 9, 10, 0.82);
+      position: sticky;
+      top: 0;
+      backdrop-filter: blur(24px);
+      box-shadow: var(--f4-shadow-soft);
+      z-index: 4;
+    }
+    .header-inner {
+      max-width: 1120px;
+      margin: 0 auto;
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+    .brand-mark {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 14px;
+      color: var(--f4-muted-strong);
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+    .brand-mark::before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      background: var(--f4-accent);
+      box-shadow: 0 0 14px rgba(233, 201, 47, 0.55);
+    }
+    .header-copy h1 {
+      margin: 0;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: clamp(2.6rem, 6vw, 4.9rem);
+      line-height: 0.9;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .header-copy p {
+      max-width: 58ch;
+      margin: 14px 0 0;
+      color: var(--f4-muted);
+      font-size: 14px;
+      line-height: 1.65;
+    }
+    main {
+      max-width: 760px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 32px 24px 48px;
+      display: grid;
+      gap: 20px;
+      flex: 1 0 auto;
+    }
+    .stack {
+      display: grid;
+      gap: 20px;
+    }
+    .card {
+      position: relative;
+      overflow: hidden;
+      border: 1px solid var(--f4-border);
+      border-radius: 24px;
+      padding: 24px;
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02)),
+        var(--f4-panel);
+      backdrop-filter: blur(24px);
+      box-shadow: var(--f4-shadow);
+    }
+    .card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(135deg, rgba(233, 201, 47, 0.14), transparent 38%),
+        linear-gradient(315deg, rgba(93, 204, 238, 0.08), transparent 44%);
+      opacity: 0.8;
+      pointer-events: none;
+    }
+    .card > * {
+      position: relative;
+      z-index: 1;
+    }
+    .section-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 14px;
+      color: var(--f4-accent);
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+    }
+    .section-label::before {
+      content: "";
+      width: 36px;
+      height: 1px;
+      background: currentColor;
+      opacity: 0.6;
+    }
+    h3 {
+      margin: 0 0 14px;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 1.55rem;
+      line-height: 1;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+    label {
+      display: block;
+      margin-bottom: 7px;
+      color: var(--f4-muted);
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+    input {
+      width: 100%;
+      margin-bottom: 14px;
+      padding: 14px 16px;
+      border-radius: 14px;
+      border: 1px solid var(--f4-border);
+      background: rgba(255, 255, 255, 0.04);
+      color: var(--f4-text);
+      outline: none;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+    }
+    input::placeholder {
+      color: var(--f4-muted);
+    }
+    input:focus {
+      border-color: var(--f4-accent);
+      box-shadow: 0 0 0 2px rgba(233, 201, 47, 0.18);
+      background: rgba(255, 255, 255, 0.06);
+    }
+    button {
+      padding: 11px 16px;
+      border-radius: 14px;
+      border: 1px solid var(--f4-accent);
+      background: linear-gradient(120deg, var(--f4-accent) 0%, var(--f4-accent-strong) 100%);
+      color: #111111;
+      cursor: pointer;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease, background 0.12s ease;
+    }
+    button:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 12px 28px rgba(233, 201, 47, 0.24);
+    }
+    button.secondary {
+      border-color: var(--f4-border-strong);
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--f4-text);
+      box-shadow: none;
+    }
+    button.secondary:hover {
+      border-color: var(--f4-accent);
+      background: var(--f4-accent-soft);
+      box-shadow: none;
+    }
+    button:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      transform: none;
+      box-shadow: none;
+    }
+    .row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .auth-mode {
+      margin: 0 0 18px;
+    }
+    .muted {
+      color: var(--f4-muted);
+      font-size: 13px;
+      line-height: 1.6;
+    }
+    pre {
+      background: rgba(255, 255, 255, 0.04);
+      padding: 12px;
+      border-radius: 14px;
+      overflow-x: auto;
+      border: 1px solid var(--f4-border);
+      color: var(--f4-text);
+      font-family: 'IBM Plex Mono', monospace;
+    }
+    .hidden { display: none !important; }
+    .modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.68);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 999;
+      backdrop-filter: blur(14px);
+    }
+    .modal.hidden { display: none !important; }
+    .modal-content {
+      width: 420px;
+      max-width: calc(100vw - 32px);
+    }
+    .spinner {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: 3px solid rgba(255, 255, 255, 0.15);
+      border-top-color: var(--f4-accent);
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .google-wrap {
+      border: 1px solid var(--f4-border);
+      border-radius: 18px;
+      padding: 14px;
+      background: rgba(255, 255, 255, 0.03);
+    }
+    footer {
+      margin-top: 20px;
+      border-top: 1px solid var(--f4-border);
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.015)),
+        rgba(8, 9, 10, 0.92);
+      backdrop-filter: blur(24px);
+    }
+    .footer-inner {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 20px 24px;
+      display: flex;
+      gap: 18px;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .footer-brand {
+      display: grid;
+      gap: 8px;
+      min-width: 260px;
+    }
+    .footer-title {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+    .footer-links {
+      display: flex;
+      gap: 22px;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+    .footer-col {
+      display: grid;
+      gap: 10px;
+      min-width: 220px;
+    }
+    .footer-col h4 {
+      margin: 0;
+      color: var(--f4-muted);
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+    .footer-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .footer-col a {
+      color: var(--f4-text);
+      text-decoration: none;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--f4-border);
+      background: rgba(255, 255, 255, 0.04);
+      transition: border-color 0.12s ease, color 0.12s ease, background 0.12s ease;
+      width: fit-content;
+    }
+    .footer-col a:hover {
+      color: var(--f4-accent);
+      border-color: rgba(233, 201, 47, 0.4);
+      background: rgba(233, 201, 47, 0.08);
+    }
+    .footer-bottom {
+      border-top: 1px solid var(--f4-border);
+      padding: 12px 24px;
+      color: var(--f4-muted);
+      font-size: 12px;
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      flex-wrap: wrap;
+      max-width: 1120px;
+      margin: 0 auto;
+    }
+    @media (max-width: 640px) {
+      header,
+      main,
+      .footer-inner,
+      .footer-bottom {
+        padding-left: 18px;
+        padding-right: 18px;
+      }
+      .card {
+        border-radius: 20px;
+        padding: 20px;
+      }
+      .header-copy h1 {
+        font-size: clamp(2.2rem, 12vw, 3.6rem);
+      }
+      .modal-content {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="header-copy">
+        <div class="brand-mark">F4 Secure Access</div>
+        <h1>Downloads Portal</h1>
+        <p>Sign in or create an account to reach installers, release notes, private builds, and your organization's secure download workflows.</p>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="stack">
+      <div class="card">
+        <div class="section-label">Authentication</div>
+        <h3 id="authTitle">Sign In</h3>
+        <div class="row auth-mode">
+          <button id="modeLoginBtn" class="secondary" onclick="setMode('login')">Sign in</button>
+          <button id="modeRegisterBtn" class="secondary" onclick="setMode('register')">Create account</button>
+        </div>
+        <label>Email</label>
+        <input id="email" placeholder="you@example.com" />
+        <label>Password</label>
+        <input id="password" type="password" placeholder="Your password" />
+        <div id="passwordConfirmWrap" class="hidden">
+          <label>Confirm password</label>
+          <input id="passwordConfirm" type="password" placeholder="Repeat password" />
+        </div>
+        <div class="row">
+          <button id="primaryActionBtn" onclick="primaryAction()">Continue</button>
+        </div>
+        <div id="status" class="muted" style="margin-top:10px;"></div>
+      </div>
+      <div id="verificationModal" class="modal hidden">
+        <div id="verificationCard" class="card modal-content">
+          <h3>Verify your email</h3>
+          <div class="muted" id="verificationHint">
+            We sent a verification link to <span id="verificationEmail"></span>. Click the link, then confirm below.
+          </div>
+          <div class="row" style="margin-top:12px;">
+            <button id="verificationCheckBtn" class="secondary" onclick="checkVerification()">I've verified</button>
+            <button id="verificationResendBtn" class="secondary" onclick="resendVerification()">Resend email</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Or sign in with Google</h3>
+        <div class="google-wrap">
+          <div id="googleButton"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-title">F4</div>
+        <div class="muted">Sign in to access downloads and private releases.</div>
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Product</h4>
+          <div class="footer-actions">
+            <a href="/" data-ga-nav="f4.dev">Main site</a>
+            <a href="/docs/" data-ga-nav="docs.f4.dev">Documentation</a>
+            <a href="/wiki/" data-ga-nav="wiki.f4.dev">Wiki</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Downloads</h4>
+          <div class="footer-actions">
+            <a href="/download/" data-ga-nav="download.f4.dev">Download portal</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div>© <span id="footerYear"></span> F4</div>
+    </div>
+  </footer>
+
+  <div id="mfaModal" class="modal hidden">
+    <div class="card modal-content">
+      <h3>Enter MFA Code</h3>
+      <input id="mfaCode" placeholder="123456" />
+      <div class="row">
+        <button id="mfaSubmitBtn" onclick="submitMfa()">Submit</button>
+        <button id="mfaCancelBtn" class="secondary" onclick="closeMfa()">Cancel</button>
+      </div>
+      <div class="row" style="margin-top:8px;">
+        <button class="secondary" onclick="openRecovery()">Use recovery code instead</button>
+      </div>
+      <div class="muted" style="margin-top:8px;">MFA is required to complete sign-in.</div>
+    </div>
+  </div>
+
+  <div id="recoveryModal" class="modal hidden">
+    <div class="card modal-content">
+      <h3>Enter Recovery Code</h3>
+      <input id="recoveryCode" placeholder="1234-5678-9012" />
+      <div class="row">
+        <button id="recoverySubmitBtn" onclick="submitRecoveryCode()">Submit</button>
+        <button id="recoveryCancelBtn" class="secondary" onclick="cancelRecovery()">Cancel</button>
+      </div>
+      <div class="muted" style="margin-top:8px;">Use one of your saved recovery codes.</div>
+    </div>
+  </div>
+
+  <div id="mfaOptionalModal" class="modal hidden">
+    <div class="card modal-content">
+      <h3>Set up MFA</h3>
+      <div class="muted" style="margin-bottom:12px;">
+        Add an authenticator app for extra security. You can skip for now.
+      </div>
+      <div class="row">
+        <button onclick="acceptOptionalMfa()">Set up MFA</button>
+        <button class="secondary" onclick="skipOptionalMfa()">Skip for now</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="mfaEnrollModal" class="modal hidden">
+    <div class="card modal-content" style="width: 420px;">
+      <h3>Set up MFA</h3>
+      <div class="muted" style="margin-bottom:10px;">Scan this QR code with your authenticator app, then enter a code to verify.</div>
+      <div class="stack">
+        <img id="mfaQr" alt="MFA QR code" style="width: 220px; height: 220px; border-radius: 12px; border: 1px solid var(--border); background: #111; align-self: center;" />
+        <div>
+          <label>Secret (manual entry)</label>
+          <input id="mfaSecret" readonly />
+        </div>
+        <div id="mfaRecoveryWrap" class="hidden">
+          <label>Recovery codes (save these)</label>
+          <pre id="mfaRecoveryCodes" style="max-height: 160px; overflow:auto;"></pre>
+          <div class="row">
+            <button class="secondary" onclick="copyRecoveryCodes()">Copy recovery codes</button>
+          </div>
+        </div>
+        <div>
+          <label>Verification code</label>
+          <input id="mfaEnrollCode" placeholder="123456" />
+          <div class="row">
+            <button id="mfaEnrollSubmitBtn" onclick="submitMfaEnroll()">Verify and continue</button>
+            <button id="mfaEnrollCancelBtn" class="secondary" onclick="closeMfaEnroll()">Cancel</button>
+            <button id="mfaEnrollContinueBtn" class="hidden" onclick="finishMfaEnroll()">Continue</button>
+          </div>
+        </div>
+        <div id="mfaEnrollStatus" class="muted"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="loadingModal" class="modal hidden">
+    <div class="card modal-content" style="text-align:center;">
+      <div class="row" style="justify-content:center;">
+        <div class="spinner"></div>
+      </div>
+      <div id="loadingText" class="muted" style="margin-top:12px;">Signing in...</div>
+    </div>
+  </div>
+
+  <script>
+    const BASE = location.pathname.startsWith('/download-portal') ? '/download-portal' : '';
+    const ANALYTICS_SURFACE = 'web_auth';
+    const STORY_ID_KEY = 'f4.analytics.story_id';
+    const SESSION_ID_KEY = 'f4.analytics.session_id';
+    const REF_SURFACE_KEY = 'f4.analytics.ref_surface';
+    const REF_STEP_KEY = 'f4.analytics.ref_step';
+    const RETURN_TO = (function () {
+      try {
+        const raw = new URLSearchParams(window.location.search || '').get('return_to');
+        if (!raw) return null;
+
+        // Support absolute URLs; if relative is provided, resolve against current origin.
+        const u = new URL(raw, window.location.origin);
+
+        // Prevent open redirects: only allow returning to *.f4.dev over HTTPS.
+        // (And allow same-origin for localhost/dev.)
+        const isLocal = u.hostname === 'localhost' || u.hostname === '127.0.0.1' || u.hostname.endsWith('.local');
+        const isF4 = u.protocol === 'https:' && (u.hostname === 'f4.dev' || u.hostname.endsWith('.f4.dev'));
+        const isSameOrigin = u.origin === window.location.origin;
+
+        if (isF4 || (isLocal && isSameOrigin)) {
+          return u.href;
+        }
+        return null;
+      } catch (_) {
+        return null;
+      }
+    })();
+
+    const footerYearEl = document.getElementById('footerYear');
+    if (footerYearEl) footerYearEl.textContent = String(new Date().getFullYear());
+
+    function newAnalyticsId(prefix) {
+      if (window.crypto && typeof window.crypto.randomUUID === 'function') {
+        return `${prefix}_${window.crypto.randomUUID()}`;
+      }
+      return `${prefix}_${Date.now()}_${Math.floor(Math.random() * 1e9)}`;
+    }
+
+    function safeUrl(raw, base) {
+      try {
+        return new URL(raw, base || window.location.href);
+      } catch (_) {
+        return null;
+      }
+    }
+
+    function syncStoryContextFromQuery() {
+      try {
+        const params = new URLSearchParams(window.location.search || '');
+        let storyId = (params.get('f4_story_id') || '').trim();
+        let refSurface = (params.get('f4_ref_surface') || '').trim();
+        let refStep = (params.get('f4_ref_step') || '').trim();
+
+        if ((!storyId || !refSurface || !refStep) && RETURN_TO) {
+          const returnUrl = safeUrl(RETURN_TO);
+          if (returnUrl) {
+            if (!storyId) storyId = (returnUrl.searchParams.get('f4_story_id') || '').trim();
+            if (!refSurface) refSurface = (returnUrl.searchParams.get('f4_ref_surface') || '').trim();
+            if (!refStep) refStep = (returnUrl.searchParams.get('f4_ref_step') || '').trim();
+          }
+        }
+
+        if (storyId && window.localStorage) {
+          window.localStorage.setItem(STORY_ID_KEY, storyId);
+        }
+        if (refSurface && window.sessionStorage) {
+          window.sessionStorage.setItem(REF_SURFACE_KEY, refSurface);
+        }
+        if (refStep && window.sessionStorage) {
+          window.sessionStorage.setItem(REF_STEP_KEY, refStep);
+        }
+      } catch (_) {
+        // ignore
+      }
+    }
+
+    function currentRefSurface() {
+      try {
+        return (window.sessionStorage && window.sessionStorage.getItem(REF_SURFACE_KEY)) || '';
+      } catch (_) {
+        return '';
+      }
+    }
+
+    function currentRefStep() {
+      try {
+        return (window.sessionStorage && window.sessionStorage.getItem(REF_STEP_KEY)) || '';
+      } catch (_) {
+        return '';
+      }
+    }
+
+    function isF4Host(hostname) {
+      return !!hostname && (hostname === 'f4.dev' || hostname.endsWith('.f4.dev'));
+    }
+
+    function decorateF4HandoffUrl(rawUrl, stepName) {
+      const url = safeUrl(rawUrl);
+      if (!url || !isF4Host(url.hostname) || url.hostname === window.location.hostname) {
+        return rawUrl;
+      }
+      url.searchParams.set('f4_story_id', getOrCreateStoryId());
+      url.searchParams.set('f4_ref_surface', ANALYTICS_SURFACE);
+      url.searchParams.set('f4_ref_step', stepName);
+      return url.toString();
+    }
+
+    function getOrCreateStoryId() {
+      try {
+        const existing = window.localStorage && window.localStorage.getItem(STORY_ID_KEY);
+        if (existing) return existing;
+        const generated = newAnalyticsId('story');
+        if (window.localStorage) window.localStorage.setItem(STORY_ID_KEY, generated);
+        return generated;
+      } catch (_) {
+        return newAnalyticsId('story');
+      }
+    }
+
+    function getOrCreateSessionId() {
+      try {
+        const existing = window.sessionStorage && window.sessionStorage.getItem(SESSION_ID_KEY);
+        if (existing) return existing;
+        const generated = newAnalyticsId('session');
+        if (window.sessionStorage) window.sessionStorage.setItem(SESSION_ID_KEY, generated);
+        return generated;
+      } catch (_) {
+        return newAnalyticsId('session');
+      }
+    }
+
+    function sanitizeAnalyticsParams(params) {
+      const source = params || {};
+      const out = {};
+      Object.keys(source).forEach((key) => {
+        if (key === 'event_callback' || key === 'event_timeout') return;
+        const value = source[key];
+        if (typeof value === 'undefined' || typeof value === 'function') return;
+        out[key] = value;
+      });
+      return out;
+    }
+
+    function rawGaEvent(name, params) {
+      try {
+        if (!window.__F4_ANALYTICS_ENABLED) {
+          return;
+        }
+        if (typeof window.gtag === 'function') {
+          window.gtag('event', name, params || {});
+        }
+      } catch (_) {
+        // ignore
+      }
+    }
+
+    function emitV2Event(eventName, journeyName, journeyStep, result, params) {
+      if (!window.__F4_ANALYTICS_ENABLED || !window.__F4_ANALYTICS_V2_ENABLED) return;
+      const payload = Object.assign({}, sanitizeAnalyticsParams(params), {
+        schema_version: 2,
+        event_ts_ms: Date.now(),
+        surface: ANALYTICS_SURFACE,
+        story_id: getOrCreateStoryId(),
+        journey_name: journeyName,
+        journey_step: journeyStep,
+        result: result || 'unknown',
+        session_id: getOrCreateSessionId(),
+      });
+      const refSurface = currentRefSurface();
+      const refStep = currentRefStep();
+      if (refSurface && typeof payload.referrer_surface === 'undefined') {
+        payload.referrer_surface = refSurface;
+      }
+      if (refStep && typeof payload.referrer_step === 'undefined') {
+        payload.referrer_step = refStep;
+      }
+      rawGaEvent(eventName, payload);
+    }
+
+    function legacyToV2Event(name, params) {
+      const safeParams = sanitizeAnalyticsParams(params);
+      switch (name) {
+        case 'nav_click':
+          return { eventName: 'journey_step', journeyName: 'auth_navigation', journeyStep: 'nav_click', result: 'success', params: { destination: safeParams.destination || '' } };
+        case 'auth_mode_change':
+          return { eventName: 'journey_step', journeyName: 'auth_flow', journeyStep: 'auth_mode_change', result: 'success', params: { mode: safeParams.mode || '' } };
+        case 'login':
+        case 'sign_up':
+          return { eventName: 'auth_attempt', journeyName: 'auth_flow', journeyStep: name, result: 'success', params: { method: safeParams.method || 'unknown' } };
+        default:
+          return null;
+      }
+    }
+
+    function gaEvent(name, params) {
+      const safeParams = params || {};
+      if (window.__F4_ANALYTICS_LEGACY_ENABLED) {
+        rawGaEvent(name, safeParams);
+      }
+      const mapped = legacyToV2Event(name, safeParams);
+      if (mapped) {
+        emitV2Event(mapped.eventName, mapped.journeyName, mapped.journeyStep, mapped.result, mapped.params);
+      }
+    }
+
+    function gaEventThenNavigate(name, params, url) {
+      const href = String(url || '');
+      if (!href) return;
+      const finalHref = decorateF4HandoffUrl(href, name);
+
+      let navigated = false;
+      const go = function () {
+        if (navigated) return;
+        navigated = true;
+        window.location.href = finalHref;
+      };
+
+      if (!window.__F4_ANALYTICS_ENABLED || typeof window.gtag !== 'function') {
+        go();
+        return;
+      }
+
+      const payload = Object.assign({}, params || {}, {
+        event_callback: go,
+        event_timeout: 300,
+      });
+      gaEvent(name, payload);
+      setTimeout(go, 300);
+    }
+
+    document.addEventListener('click', function (e) {
+      const target = e.target && e.target.closest ? e.target.closest('[data-ga-nav]') : null;
+      if (!target) return;
+      const href = target.getAttribute('href');
+      if (!href) return;
+
+      e.preventDefault();
+      gaEventThenNavigate('nav_click', { destination: target.getAttribute('data-ga-nav') || href }, href);
+    });
+
+    syncStoryContextFromQuery();
+
+    const statusEl = document.getElementById('status');
+    const loadingModal = document.getElementById('loadingModal');
+    const loadingText = document.getElementById('loadingText');
+    const primaryActionBtn = document.getElementById('primaryActionBtn');
+    const mfaSubmitBtn = document.getElementById('mfaSubmitBtn');
+    const mfaCancelBtn = document.getElementById('mfaCancelBtn');
+    const emailInput = document.getElementById('email');
+    const passwordInput = document.getElementById('password');
+    const passwordConfirmInput = document.getElementById('passwordConfirm');
+    const passwordConfirmWrap = document.getElementById('passwordConfirmWrap');
+    const modeLoginBtn = document.getElementById('modeLoginBtn');
+    const modeRegisterBtn = document.getElementById('modeRegisterBtn');
+    const mfaEnrollSubmitBtn = document.getElementById('mfaEnrollSubmitBtn');
+    const mfaEnrollCancelBtn = document.getElementById('mfaEnrollCancelBtn');
+    const mfaEnrollStatusEl = document.getElementById('mfaEnrollStatus');
+    const mfaEnrollContinueBtn = document.getElementById('mfaEnrollContinueBtn');
+    const mfaRecoveryWrap = document.getElementById('mfaRecoveryWrap');
+    const recoverySubmitBtn = document.getElementById('recoverySubmitBtn');
+    const recoveryCancelBtn = document.getElementById('recoveryCancelBtn');
+    const mfaOptionalModal = document.getElementById('mfaOptionalModal');
+    const verificationModal = document.getElementById('verificationModal');
+    const verificationCard = document.getElementById('verificationCard');
+    const verificationEmail = document.getElementById('verificationEmail');
+    const verificationCheckBtn = document.getElementById('verificationCheckBtn');
+    const verificationResendBtn = document.getElementById('verificationResendBtn');
+
+    let authMode = 'login'; // 'login' | 'register'
+    const EXISTING_ACCOUNT_MESSAGE = 'An account with this email already exists. Please contact support for help.';
+    let pendingVerification = null;
+    let mfaEnrollOptional = false;
+    let pendingMfaRedirect = false;
+
+    function setStatus(text) {
+      if (!statusEl) return;
+      statusEl.textContent = text || '';
+    }
+
+    function setLoading(isLoading, text) {
+      if (loadingModal) loadingModal.classList.toggle('hidden', !isLoading);
+      if (loadingText && text) loadingText.textContent = text;
+      if (primaryActionBtn) primaryActionBtn.disabled = !!isLoading;
+      if (mfaSubmitBtn) mfaSubmitBtn.disabled = !!isLoading;
+      if (mfaCancelBtn) mfaCancelBtn.disabled = !!isLoading;
+      if (mfaEnrollSubmitBtn) mfaEnrollSubmitBtn.disabled = !!isLoading;
+      if (mfaEnrollCancelBtn) mfaEnrollCancelBtn.disabled = !!isLoading;
+      if (mfaEnrollContinueBtn) mfaEnrollContinueBtn.disabled = !!isLoading;
+      if (recoverySubmitBtn) recoverySubmitBtn.disabled = !!isLoading;
+      if (recoveryCancelBtn) recoveryCancelBtn.disabled = !!isLoading;
+      if (verificationCheckBtn) verificationCheckBtn.disabled = !!isLoading;
+      if (verificationResendBtn) verificationResendBtn.disabled = !!isLoading;
+      if (emailInput) emailInput.disabled = !!isLoading;
+      if (passwordInput) passwordInput.disabled = !!isLoading;
+      if (passwordConfirmInput) passwordConfirmInput.disabled = !!isLoading;
+      if (modeLoginBtn) modeLoginBtn.disabled = !!isLoading;
+      if (modeRegisterBtn) modeRegisterBtn.disabled = !!isLoading;
+      const googleBtn = document.getElementById('googleButton');
+      if (googleBtn) googleBtn.style.pointerEvents = isLoading ? 'none' : 'auto';
+      document.documentElement.style.cursor = isLoading ? 'progress' : 'auto';
+    }
+
+    const postJson = (path, body) => fetch(`${BASE}${path}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: body ? JSON.stringify(body) : '{}',
+      credentials: 'include',
+    });
+    const getJson = (path) => fetch(`${BASE}${path}`, { credentials: 'include' });
+
+      function friendlyAuthError(code, message) {
+        const normalized = (code || '').toString().trim().toUpperCase();
+        switch (normalized) {
+          case 'LICENSE_EXPIRED':
+            return 'Your organization\'s license has expired. Please contact an admin to renew.';
+          case 'LICENSE_NOT_YET_VALID':
+          case 'LICENSE_INVALID':
+            return 'Your organization\'s license is not yet active. Please try again later or contact support.';
+          case 'LICENSE_INACTIVE':
+            return 'Your organization\'s license is inactive. Please contact support.';
+          case 'SEAT_LIMIT_REACHED':
+            return 'Seat limit reached. Ask an admin to free a seat or upgrade.';
+          case 'ORG_SUSPENDED':
+            return 'This organization is suspended. Please contact support.';
+          case 'ORG_INACTIVE':
+            return 'This organization is inactive. Please contact support.';
+          case 'USER_CREATION_FAILED':
+            return 'Account setup failed. Please retry or contact support.';
+          case 'NO_INVITE':
+            return 'Access denied: No active invitation found for this account.';
+          case 'INVITE_INVALID':
+            return 'Invitation invalid or expired. Request a new invite.';
+          case 'INVITE_EXPIRED':
+            return 'Your invite has expired. Please request a new invite.';
+          case 'INVITE_USED':
+            return 'This invite has already been used. Please request a new invite.';
+          case 'MFA_NOT_ENROLLED':
+            return 'Two-factor authentication enrollment required to continue.';
+          case 'MFA_REQUIRED':
+            return 'Enter your verification code to continue.';
+          case 'MFA_INVALID_CODE':
+          case 'INVALID_MFA_CODE':
+            return 'Invalid verification code. Please try again.';
+          case 'BACKUP_CODE_INVALID':
+          case 'RECOVERY_CODE_INVALID':
+            return 'Invalid backup code. Please try another or contact support.';
+          case 'RECOVERY_CODES_UNAVAILABLE':
+            return 'No recovery codes are available. Use your authenticator app instead.';
+          case 'RECOVERY_CODE_UPDATE_FAILED':
+            return 'Unable to update recovery codes. Try again.';
+          case 'TOKEN_EXCHANGE_FAILED':
+            return 'Token exchange failed. Please retry in a moment.';
+          case 'MFA_ENROLL_FAILED':
+            return 'Unable to start MFA enrollment. Retry shortly.';
+          case 'MFA_VERIFY_FAILED':
+            return 'Verification failed. Check the code and try again.';
+          case 'PROVISIONING_FAILED':
+            return 'Account provisioning failed. Please retry or contact support.';
+          case 'LOGIN_FAILED':
+            return 'Login failed. Check your credentials and try again.';
+          case 'REGISTRATION_FAILED':
+            return 'Registration failed. Please verify details and retry.';
+          case 'INVALID_CREDENTIALS':
+            return 'Invalid email or password.';
+          case 'TOKEN_EXPIRED':
+          case 'ID_TOKEN_EXPIRED':
+          case 'CREDENTIAL_TOO_OLD_LOGIN_AGAIN':
+            return 'Your session expired. Please sign in again, then retry.';
+          case 'TOO_MANY_ATTEMPTS_TRY_LATER':
+            return 'Too many attempts. Please wait a few minutes before trying again.';
+          default:
+            if (code && message) return `${code}: ${message}`;
+            if (message) return message;
+            if (code) return code;
+            return 'Sign-in failed';
+        }
+      }
+
+    function extractError(parsed) {
+      if (!parsed) return { code: null, message: null };
+      const apiCode = parsed?.error?.code || parsed?.data?.code;
+      const apiMsg = parsed?.error?.message || parsed?.data?.message;
+      if (apiCode || apiMsg) return { code: apiCode, message: apiMsg };
+      if (typeof parsed?.error === 'string') return { code: parsed.error, message: parsed.message };
+      if (parsed?.message) return { code: null, message: parsed.message };
+      return { code: null, message: null };
+    }
+
+    const pretty = async (resp) => {
+      const text = await resp.text();
+      if (!resp.ok) {
+        try {
+          const parsed = JSON.parse(text);
+          const { code, message } = extractError(parsed);
+          setStatus(friendlyAuthError(code, message));
+        } catch (_) {
+          setStatus('Sign-in failed');
+        }
+      }
+      return { status: resp.status, text };
+    };
+
+    function setMode(mode) {
+      authMode = mode === 'register' ? 'register' : 'login';
+      gaEvent('auth_mode_change', { mode: authMode });
+      const title = document.getElementById('authTitle');
+      if (title) title.textContent = authMode === 'register' ? 'Create Account' : 'Sign In';
+      if (passwordConfirmWrap) passwordConfirmWrap.classList.toggle('hidden', authMode !== 'register');
+      if (primaryActionBtn) primaryActionBtn.textContent = authMode === 'register' ? 'Create account' : 'Sign in';
+      if (modeLoginBtn) modeLoginBtn.style.borderColor = authMode === 'login' ? 'var(--accent)' : 'var(--border)';
+      if (modeRegisterBtn) modeRegisterBtn.style.borderColor = authMode === 'register' ? 'var(--accent)' : 'var(--border)';
+    }
+
+    function showVerificationCard(email) {
+      const nextEmail = (email || pendingVerification?.email || '').trim();
+      pendingVerification = {
+        email: nextEmail,
+        password: pendingVerification?.password || '',
+      };
+      if (verificationEmail) verificationEmail.textContent = nextEmail || 'your email';
+      if (verificationModal) verificationModal.classList.remove('hidden');
+      if (verificationCard) verificationCard.classList.remove('hidden');
+    }
+
+    function hideVerificationCard() {
+      if (verificationModal) verificationModal.classList.add('hidden');
+      if (verificationCard) verificationCard.classList.add('hidden');
+    }
+
+    function clearVerificationState() {
+      pendingVerification = null;
+      hideVerificationCard();
+    }
+
+    function getVerificationCredentials() {
+      const email = (pendingVerification?.email || emailInput?.value || '').trim();
+      const password = pendingVerification?.password || passwordInput?.value || '';
+      if (!email || !password) return null;
+      return { email, password };
+    }
+
+    function openMfa() {
+      const modal = document.getElementById('mfaModal');
+      if (modal) modal.classList.remove('hidden');
+    }
+    function closeMfa() {
+      const modal = document.getElementById('mfaModal');
+      if (modal) modal.classList.add('hidden');
+    }
+    function openRecovery() {
+      closeMfa();
+      const modal = document.getElementById('recoveryModal');
+      if (modal) modal.classList.remove('hidden');
+    }
+    function closeRecovery() {
+      const modal = document.getElementById('recoveryModal');
+      if (modal) modal.classList.add('hidden');
+    }
+    function cancelRecovery() {
+      closeRecovery();
+      openMfa();
+    }
+    function openMfaOptional() {
+      if (mfaOptionalModal) mfaOptionalModal.classList.remove('hidden');
+    }
+    function closeMfaOptional() {
+      if (mfaOptionalModal) mfaOptionalModal.classList.add('hidden');
+    }
+
+    // Enter key submits MFA code.
+    (() => {
+      const input = document.getElementById('mfaCode');
+      if (!input) return;
+      input.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          submitMfa();
+        }
+      });
+    })();
+
+    (() => {
+      const input = document.getElementById('recoveryCode');
+      if (!input) return;
+      input.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          submitRecoveryCode();
+        }
+      });
+    })();
+
+    function setMfaEnrollStatus(text) {
+      if (!mfaEnrollStatusEl) return;
+      mfaEnrollStatusEl.textContent = text || '';
+    }
+
+    function setMfaEnrollPhase(phase) {
+      const showCodes = phase === 'codes';
+      if (mfaRecoveryWrap) mfaRecoveryWrap.classList.toggle('hidden', !showCodes);
+      if (mfaEnrollContinueBtn) mfaEnrollContinueBtn.classList.toggle('hidden', !showCodes);
+      if (mfaEnrollSubmitBtn) mfaEnrollSubmitBtn.classList.toggle('hidden', showCodes);
+    }
+
+    function resetMfaEnrollUi() {
+      setMfaEnrollStatus('');
+      const codesEl = document.getElementById('mfaRecoveryCodes');
+      if (codesEl) codesEl.textContent = '';
+      const enrollCode = document.getElementById('mfaEnrollCode');
+      if (enrollCode) enrollCode.value = '';
+      pendingMfaRedirect = false;
+      setMfaEnrollPhase('verify');
+    }
+
+    function openMfaEnroll() { document.getElementById('mfaEnrollModal').classList.remove('hidden'); }
+    function closeMfaEnroll() {
+      document.getElementById('mfaEnrollModal').classList.add('hidden');
+      if (mfaEnrollOptional && pendingMfaRedirect) {
+        checkSessionAndRedirect();
+      }
+      mfaEnrollOptional = false;
+    }
+
+      function normalizeEnrollData(payload) {
+        const data = payload?.data || payload;
+        let qr = data?.qrCodeDataUrl || data?.qr_code_data_url;
+        const secret = data?.secret;
+        if (qr && qr.startsWith('otpauth://')) {
+          qr = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(qr)}`;
+        }
+        return { qr, secret };
+      }
+
+    async function startMfaEnroll(optional = false) {
+      resetMfaEnrollUi();
+      mfaEnrollOptional = !!optional;
+      if (mfaEnrollOptional) pendingMfaRedirect = true;
+      emitV2Event('mfa_challenge', 'auth_flow', optional ? 'mfa_optional_enroll_start' : 'mfa_enroll_start', 'success', {});
+      setStatus('');
+      setLoading(true, 'Preparing MFA setup...');
+      try {
+        const resp = await postJson('/web/auth/mfa/enroll', {});
+        const text = await resp.text();
+        let parsed = null;
+        try { parsed = JSON.parse(text); } catch (_) {}
+        setLoading(false);
+        if (!resp.ok) {
+          const { code, message } = extractError(parsed);
+          setStatus(friendlyAuthError(code, message) || 'Failed to start MFA setup');
+          emitV2Event('mfa_failure', 'auth_flow', 'mfa_enroll_start', 'failure', {
+            error_code: code || 'mfa_enroll_start_failed',
+          });
+          return false;
+        }
+        const { qr, secret } = normalizeEnrollData(parsed);
+        const qrEl = document.getElementById('mfaQr');
+        const secretEl = document.getElementById('mfaSecret');
+        if (qrEl) qrEl.src = qr || '';
+        if (secretEl) secretEl.value = secret || '';
+        openMfaEnroll();
+        return true;
+      } catch (_) {
+        setLoading(false);
+        setStatus('Failed to start MFA setup');
+        emitV2Event('mfa_failure', 'auth_flow', 'mfa_enroll_start', 'failure', {
+          error_code: 'mfa_enroll_start_exception',
+        });
+        return false;
+      }
+    }
+
+    async function generateRecoveryCodes() {
+      try {
+        const resp = await postJson('/web/auth/mfa/recovery-codes', {});
+        const text = await resp.text();
+        let parsed = null;
+        try { parsed = JSON.parse(text); } catch (_) {}
+        if (!resp.ok) {
+          const { code, message } = extractError(parsed);
+          setMfaEnrollStatus(friendlyAuthError(code, message) || 'Failed to generate recovery codes');
+          return null;
+        }
+        const codes = parsed?.data?.codes || parsed?.codes;
+        if (!Array.isArray(codes) || !codes.length) {
+          setMfaEnrollStatus('No recovery codes received.');
+          return null;
+        }
+        const codesEl = document.getElementById('mfaRecoveryCodes');
+        if (codesEl) codesEl.textContent = codes.join('\n');
+        return codes;
+      } catch (_) {
+        setMfaEnrollStatus('Failed to generate recovery codes.');
+        return null;
+      }
+    }
+
+    async function submitMfaEnroll() {
+      const code = (document.getElementById('mfaEnrollCode')?.value || '').trim();
+      if (!code) { setMfaEnrollStatus('Enter the code from your authenticator app.'); return; }
+      setMfaEnrollStatus('');
+      setLoading(true, 'Verifying MFA setup...');
+      try {
+        const resp = await postJson('/web/auth/mfa/verify', { code });
+        const text = await resp.text();
+        let parsed = null;
+        try { parsed = JSON.parse(text); } catch (_) {}
+        if (!resp.ok) {
+          const { code: errCode, message } = extractError(parsed);
+          setLoading(false);
+          setMfaEnrollStatus(friendlyAuthError(errCode, message) || 'MFA verification failed');
+          emitV2Event('mfa_failure', 'auth_flow', 'mfa_enroll_verify', 'failure', {
+            error_code: errCode || 'mfa_enroll_verify_failed',
+          });
+          return;
+        }
+        const valid = parsed?.data?.valid;
+        if (valid === false) {
+          setLoading(false);
+          setMfaEnrollStatus('Invalid code. Try again.');
+          emitV2Event('mfa_failure', 'auth_flow', 'mfa_enroll_verify', 'failure', {
+            error_code: 'mfa_code_invalid',
+          });
+          return;
+        }
+        emitV2Event('mfa_success', 'auth_flow', 'mfa_enroll_verify', 'success', {});
+        if (!mfaEnrollOptional) {
+          setLoading(true, 'Finalizing sign-in...');
+          const follow = await runBlockingSignin(code);
+          if (follow.status !== 200) {
+            setLoading(false);
+            handleAuthFlow(follow.status, follow.text);
+            return;
+          }
+          pendingMfaRedirect = true;
+        }
+        setLoading(true, 'Generating recovery codes...');
+        const codes = await generateRecoveryCodes();
+        setLoading(false);
+        if (pendingMfaRedirect) {
+          if (codes && codes.length) {
+            setMfaEnrollStatus('Save your recovery codes before continuing.');
+          } else {
+            setMfaEnrollStatus('Continue when you are ready.');
+          }
+          setMfaEnrollPhase('codes');
+        }
+      } catch (_) {
+        setLoading(false);
+        setMfaEnrollStatus('MFA verification failed');
+        emitV2Event('mfa_failure', 'auth_flow', 'mfa_enroll_verify', 'failure', {
+          error_code: 'mfa_enroll_verify_exception',
+        });
+      }
+    }
+
+    function copyRecoveryCodes() {
+      const codesEl = document.getElementById('mfaRecoveryCodes');
+      const text = codesEl ? codesEl.textContent : '';
+      if (!text) return;
+      navigator.clipboard?.writeText(text).then(() => {
+        setMfaEnrollStatus('Recovery codes copied.');
+      }).catch(() => {
+        setMfaEnrollStatus('Unable to copy recovery codes.');
+      });
+    }
+
+    function finishMfaEnroll() {
+      if (!pendingMfaRedirect) return;
+      const optional = mfaEnrollOptional;
+      closeMfaEnroll();
+      if (!optional) {
+        checkSessionAndRedirect();
+      }
+    }
+
+    async function runBlockingSignin(code) {
+        const payload = code ? { code } : {};
+        const resp = await postJson('/web/auth/blocking-signin', payload);
+        return pretty(resp);
+      }
+
+    function redirectToDownloads() {
+      if (RETURN_TO) {
+        window.location = RETURN_TO;
+      } else {
+        window.location = '/download-portal/';
+      }
+    }
+
+    async function passwordLogin() {
+      const email = document.getElementById('email').value;
+      const password = document.getElementById('password').value;
+      setStatus('');
+      setLoading(true, 'Signing in...');
+      try {
+        const resp = await postJson('/web/auth/password-login', { email, password });
+        const login = await pretty(resp);
+          if (login.status === 200) {
+            try {
+              const parsed = JSON.parse(login.text);
+              const loginState = parsed?.data?.loginState;
+              if (loginState === 'emailUnverified') {
+                setLoading(false);
+                setStatus('Please verify your email before signing in.');
+                pendingVerification = { email, password };
+                showVerificationCard(email);
+                emitV2Event('auth_failure', 'auth_flow', 'password_login', 'failure', {
+                  error_code: 'email_unverified',
+                });
+                emitV2Event('journey_step', 'auth_flow', 'verification_required', 'success', {
+                  reason: 'login_email_unverified',
+                });
+                return;
+              }
+            } catch (_) {
+              // ignore
+            }
+          }
+          setLoading(false);
+          handleAuthFlow(login.status, login.text);
+        } catch (_) {
+          setLoading(false);
+          setStatus('Sign-in failed');
+          emitV2Event('auth_failure', 'auth_flow', 'password_login', 'failure', {
+            error_code: 'login_exception',
+          });
+        }
+      }
+
+    async function registerAccount() {
+      const email = (emailInput?.value || '').trim();
+      const password = (passwordInput?.value || '');
+      const confirm = (passwordConfirmInput?.value || '');
+      if (!email) { setStatus('Enter your email.'); return; }
+      if (password.length < 6) { setStatus('Password must be at least 6 characters.'); return; }
+      if (password !== confirm) { setStatus('Passwords do not match.'); return; }
+
+      setStatus('');
+      setLoading(true, 'Checking email...');
+      const canRegister = await preflightRegister(email);
+      if (!canRegister) {
+        setLoading(false);
+        emitV2Event('auth_failure', 'auth_flow', 'register_preflight', 'failure', {
+          error_code: 'register_preflight_failed',
+        });
+        return;
+      }
+
+      setStatus('');
+      setLoading(true, 'Creating account...');
+      try {
+        const resp = await postJson('/web/auth/register', { email, password });
+        const text = await resp.text();
+        let parsed = null;
+        try { parsed = JSON.parse(text); } catch (_) {}
+        setLoading(false);
+        if (!resp.ok) {
+          const { code, message } = extractError(parsed);
+          if (code || message) setStatus(friendlyAuthError(code, message));
+          else setStatus(parsed?.message || 'Registration failed');
+          emitV2Event('auth_failure', 'auth_flow', 'register', 'failure', {
+            error_code: code || `http_${resp.status}`,
+          });
+          return;
+        }
+        if (parsed?.ok) {
+          emitV2Event('auth_success', 'auth_flow', 'register', 'success', {});
+          if (parsed?.requires_verification) {
+            setStatus(parsed?.message || 'Registration successful. Please check your email.');
+            pendingVerification = { email, password };
+            showVerificationCard(email);
+            emitV2Event('journey_step', 'auth_flow', 'verification_required', 'success', {
+              reason: 'post_register',
+            });
+            setMode('login');
+            if (passwordInput) passwordInput.value = '';
+            if (passwordConfirmInput) passwordConfirmInput.value = '';
+            return;
+          }
+          setStatus(parsed?.message || 'Registration successful. Please check your email.');
+          setMode('login');
+          if (passwordInput) passwordInput.value = '';
+          if (passwordConfirmInput) passwordConfirmInput.value = '';
+          return;
+        }
+        setStatus(parsed?.message || 'Registration failed');
+        emitV2Event('auth_failure', 'auth_flow', 'register', 'failure', {
+          error_code: 'register_failed',
+        });
+      } catch (_) {
+        setLoading(false);
+        setStatus('Registration failed');
+        emitV2Event('auth_failure', 'auth_flow', 'register', 'failure', {
+          error_code: 'register_exception',
+        });
+      }
+    }
+
+    async function checkVerification() {
+      const creds = getVerificationCredentials();
+      setStatus('');
+      setLoading(true, 'Checking verification...');
+      try {
+        const verificationPayload = creds || {};
+        const resp = await postJson('/web/auth/check-verification', verificationPayload);
+        const payload = await resp.json();
+        const verified = payload?.verified ?? payload?.data?.verified;
+        setLoading(false);
+        if (verified) {
+          pendingVerification = null;
+          hideVerificationCard();
+          setStatus('Email verified. Continuing...');
+          emitV2Event('journey_step', 'auth_flow', 'verification_completed', 'success', {});
+          checkSessionAndRedirect();
+          return;
+        }
+        setStatus('Email not verified yet. Please check your inbox.');
+        emitV2Event('journey_step', 'auth_flow', 'verification_completed', 'failure', {
+          error_code: 'not_verified_yet',
+        });
+      } catch (_) {
+        setLoading(false);
+        setStatus('Unable to check verification right now.');
+        emitV2Event('journey_step', 'auth_flow', 'verification_completed', 'failure', {
+          error_code: 'verification_check_exception',
+        });
+      }
+    }
+
+    async function resendVerification() {
+      const creds = getVerificationCredentials();
+      setStatus('');
+      setLoading(true, 'Resending verification email...');
+      try {
+        const verificationPayload = creds || {};
+        const resp = await postJson('/web/auth/resend-verification', verificationPayload);
+        const payload = await resp.json();
+        setLoading(false);
+        const rawMessage = payload?.message || '';
+        const friendlyMessage = friendlyAuthError(rawMessage, null);
+        if (!resp.ok || payload?.ok === false) {
+          setStatus(friendlyMessage || rawMessage || 'Unable to resend verification email.');
+          emitV2Event('journey_step', 'auth_flow', 'verification_required', 'failure', {
+            error_code: 'resend_verification_failed',
+          });
+          return;
+        }
+        setStatus(friendlyMessage || rawMessage || 'Verification email sent.');
+        emitV2Event('journey_step', 'auth_flow', 'verification_required', 'success', {
+          reason: 'resend_verification_sent',
+        });
+      } catch (_) {
+        setLoading(false);
+        setStatus('Unable to resend verification email.');
+        emitV2Event('journey_step', 'auth_flow', 'verification_required', 'failure', {
+          error_code: 'resend_verification_exception',
+        });
+      }
+    }
+
+    async function preflightRegister(email) {
+      try {
+        const resp = await postJson('/web/auth/check-user', { email });
+        const text = await resp.text();
+        let parsed = null;
+        try { parsed = JSON.parse(text); } catch (_) {}
+        if (!resp.ok) {
+          setStatus(parsed?.message || 'Unable to verify email. Please try again.');
+          return false;
+        }
+        const nextStep = parsed?.nextStep || parsed?.next_step;
+        if (nextStep && nextStep.toLowerCase() !== 'register') {
+          setStatus(EXISTING_ACCOUNT_MESSAGE);
+          return false;
+        }
+        return true;
+      } catch (_) {
+        setStatus('Unable to verify email. Please try again.');
+        return false;
+      }
+    }
+
+      async function submitMfa() {
+        const code = (document.getElementById('mfaCode')?.value || '').trim();
+        if (!code) {
+          setStatus('Enter your code.');
+          return;
+        }
+        setStatus('');
+        setLoading(true, 'Verifying code...');
+        try {
+          const result = await runBlockingSignin(code);
+        setLoading(false);
+        handleAuthFlow(result.status, result.text);
+        if (result.status === 200) {
+          emitV2Event('mfa_success', 'auth_flow', 'mfa_submit', 'success', {});
+          closeMfa();
+        } else {
+          emitV2Event('mfa_failure', 'auth_flow', 'mfa_submit', 'failure', {
+            error_code: `http_${result.status}`,
+          });
+        }
+      } catch (_) {
+        setLoading(false);
+        setStatus('Verification failed');
+        emitV2Event('mfa_failure', 'auth_flow', 'mfa_submit', 'failure', {
+          error_code: 'mfa_submit_exception',
+        });
+      }
+    }
+
+    async function submitRecoveryCode() {
+      const code = (document.getElementById('recoveryCode')?.value || '').trim();
+      if (!code) {
+        setStatus('Enter a recovery code.');
+        return;
+      }
+      setStatus('');
+      setLoading(true, 'Verifying recovery code...');
+      try {
+        const result = await runBlockingSignin(code);
+        setLoading(false);
+        handleAuthFlow(result.status, result.text);
+        if (result.status === 200) {
+          emitV2Event('mfa_success', 'auth_flow', 'recovery_submit', 'success', {});
+          closeRecovery();
+        } else {
+          emitV2Event('mfa_failure', 'auth_flow', 'recovery_submit', 'failure', {
+            error_code: `http_${result.status}`,
+          });
+        }
+      } catch (_) {
+        setLoading(false);
+        setStatus('Verification failed');
+        emitV2Event('mfa_failure', 'auth_flow', 'recovery_submit', 'failure', {
+          error_code: 'recovery_submit_exception',
+        });
+      }
+    }
+
+    function acceptOptionalMfa() {
+      closeMfaOptional();
+      startMfaEnroll(true);
+    }
+
+    function skipOptionalMfa() {
+      closeMfaOptional();
+      mfaEnrollOptional = false;
+      pendingMfaRedirect = false;
+      checkSessionAndRedirect();
+    }
+
+    function openMfaIfNeeded(status, parsed) {
+      const { code } = extractError(parsed);
+      if (status === 401 && code === 'MFA_REQUIRED') {
+        emitV2Event('mfa_challenge', 'auth_flow', 'mfa_required', 'success', {});
+        openMfa();
+        return true;
+      }
+      if (status === 401 && code === 'MFA_NOT_ENROLLED') {
+        emitV2Event('mfa_challenge', 'auth_flow', 'mfa_not_enrolled', 'success', {});
+        startMfaEnroll(false);
+        return true;
+      }
+      const mfaRequired = parsed?.data?.mfaRequired ?? parsed?.data?.mfa_required;
+      if (mfaRequired) {
+        emitV2Event('mfa_challenge', 'auth_flow', 'mfa_required', 'success', {});
+        openMfa();
+        return true;
+      }
+      return false;
+    }
+
+    function handleAuthFlow(status, text) {
+      let parsed = null;
+      try { parsed = JSON.parse(text); } catch (_) {}
+      if (openMfaIfNeeded(status, parsed)) return;
+      if (status === 200) {
+        const mfaOptional = parsed?.data?.mfaOptional ?? parsed?.data?.mfa_optional;
+        if (mfaOptional) {
+          pendingMfaRedirect = true;
+          emitV2Event('mfa_challenge', 'auth_flow', 'mfa_optional', 'success', {});
+          openMfaOptional();
+          return;
+        }
+        emitV2Event('auth_success', 'auth_flow', 'auth_completed', 'success', { mode: authMode });
+        checkSessionAndRedirect();
+      } else if (status >= 400) {
+        const { code } = extractError(parsed);
+        emitV2Event('auth_failure', 'auth_flow', 'auth_completed', 'failure', {
+          error_code: code || `http_${status}`,
+          mode: authMode,
+        });
+      }
+    }
+
+    async function checkSessionAndRedirect() {
+      try {
+        const resp = await getJson('/web/auth/me');
+        if (!resp.ok) return;
+        const payload = await resp.json();
+        const data = payload && payload.data ? payload.data : payload;
+        const emailVerified = data?.email_verified ?? data?.emailVerified;
+        if (emailVerified === false) {
+          setStatus('Please verify your email before continuing.');
+          if (!pendingVerification) {
+            pendingVerification = { email: '', password: '' };
+          }
+          showVerificationCard(pendingVerification?.email || '');
+          return;
+        }
+        if (data && data.authenticated) {
+          emitV2Event('journey_completed', 'auth_flow', 'auth_redirect_download_portal', 'success', {
+            mode: authMode,
+          });
+          if (RETURN_TO) {
+            window.location = RETURN_TO;
+          } else {
+            window.location = '/download-portal/';
+          }
+          return;
+        }
+        if (data && data.mfa_enabled) {
+          openMfa();
+          return;
+        }
+        if (data && data.authenticated === false) {
+          try {
+            const mfaResp = await postJson('/web/auth/blocking-signin', {});
+            const mfaText = await mfaResp.text();
+            handleAuthFlow(mfaResp.status, mfaText);
+          } catch (_) {
+            // ignore
+          }
+        }
+      } catch (_) {
+        // ignore
+      }
+    }
+
+    let googleClientId = null;
+    let googleInitialized = false;
+    let googleInitAttempts = 0;
+
+    function ensureGsiScriptLoaded() {
+      if (window.google && window.google.accounts) return;
+      const src = 'https://accounts.google.com/gsi/client';
+      const existing = document.querySelector(`script[src="${src}"]`);
+      if (existing) return;
+      const script = document.createElement('script');
+      script.src = src;
+      script.async = true;
+      script.defer = true;
+      script.referrerPolicy = 'no-referrer';
+      document.head.appendChild(script);
+    }
+
+    function initGoogle(clientId) {
+      if (googleInitialized) return;
+      if (!window.google || !window.google.accounts || !clientId) return;
+      const container = document.getElementById('googleButton');
+      if (!container) return;
+      if (container.dataset.gsiRendered === '1') {
+        googleInitialized = true;
+        return;
+      }
+      try {
+        container.innerHTML = '';
+        window.google.accounts.id.initialize({
+          client_id: clientId,
+          callback: async (response) => {
+            clearVerificationState();
+            setStatus('');
+            setLoading(true, 'Signing in with Google...');
+              try {
+              gaEvent(authMode === 'register' ? 'sign_up' : 'login', { method: 'google' });
+              const resp = await postJson('/web/auth/google', { googleIdToken: response.credential, mode: authMode });
+              const { status, text } = await pretty(resp);
+              setLoading(false);
+              handleAuthFlow(status, text);
+            } catch (_) {
+              setLoading(false);
+              setStatus('Sign-in failed');
+            }
+          },
+        });
+        window.google.accounts.id.renderButton(container, { theme: 'outline', size: 'large' });
+        container.dataset.gsiRendered = '1';
+        googleInitialized = true;
+      } catch (_) {
+        googleInitialized = false;
+      }
+    }
+
+    function initGoogleWhenReady(clientId) {
+      if (!clientId) return;
+      if (googleInitialized) return;
+      if (window.google && window.google.accounts) {
+        initGoogle(clientId);
+        return;
+      }
+      ensureGsiScriptLoaded();
+      // gsi/client loads async; retry for a bit to avoid a "blank" button until refresh.
+      googleInitAttempts += 1;
+      if (googleInitAttempts > 300) return;
+      setTimeout(() => initGoogleWhenReady(clientId), 100);
+    }
+
+    async function loadAuthConfig() {
+      const resp = await getJson('/web/auth/config');
+      if (resp && resp.ok) {
+        const cfg = await resp.json();
+        if (cfg && cfg.googleClientId) {
+          googleClientId = cfg.googleClientId;
+          initGoogleWhenReady(googleClientId);
+          return;
+        }
+      }
+      googleClientId = '258613910487-bebnqft3loqc78reu84m54pp6giq08li.apps.googleusercontent.com';
+      initGoogleWhenReady(googleClientId);
+    }
+
+    async function primaryAction() {
+      if (authMode === 'register') {
+        gaEvent('sign_up', { method: 'email' });
+        return registerAccount();
+      }
+      gaEvent('login', { method: 'email' });
+      return passwordLogin();
+    }
+
+    // On load: check existing session, otherwise stay on login screen.
+    setMode('login');
+    emitV2Event('journey_started', 'auth_flow', 'auth_page_view', 'success', {
+      path: window.location.pathname || '/auth',
+    });
+    loadAuthConfig();
+    checkSessionAndRedirect();
+
+    // Some browsers restore pages from BFCache without re-running scripts; re-init the GSI button.
+    window.addEventListener('pageshow', (event) => {
+      if (!event || !event.persisted) return;
+      if (!googleClientId) return;
+      googleInitialized = false;
+      googleInitAttempts = 0;
+      const container = document.getElementById('googleButton');
+      if (container) delete container.dataset.gsiRendered;
+      initGoogleWhenReady(googleClientId);
+    });
+
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState !== 'visible') return;
+      if (!googleClientId) return;
+      initGoogleWhenReady(googleClientId);
+    });
+  </script>
+</body>
+</html>
+

@@ -4,19 +4,67 @@ import { chromium } from "playwright";
 
 const ROOT = process.cwd();
 const TARGET_URL = "https://f4.dev/";
+const MIRROR_TARGETS = [
+  { source: "https://f4.dev/", localPath: "/" },
+  { source: "https://f4.dev/lite", localPath: "/lite" },
+  { source: "https://download.f4.dev/", localPath: "/download" },
+  { source: "https://docs.f4.dev/", localPath: "/docs" },
+  { source: "https://wiki.f4.dev/", localPath: "/wiki" },
+];
+
+const URL_REPLACEMENTS = [
+  ["https://f4.dev/lite", "/lite"],
+  ["https://f4.dev/", "/"],
+  ["https://f4.dev", ""],
+  ["http://f4.dev/lite", "/lite"],
+  ["http://f4.dev/", "/"],
+  ["http://f4.dev", ""],
+  ["https://download.f4.dev/", "/download/"],
+  ["https://download.f4.dev", "/download"],
+  ["http://download.f4.dev/", "/download/"],
+  ["http://download.f4.dev", "/download"],
+  ["https://docs.f4.dev/", "/docs/"],
+  ["https://docs.f4.dev", "/docs"],
+  ["http://docs.f4.dev/", "/docs/"],
+  ["http://docs.f4.dev", "/docs"],
+  ["https://wiki.f4.dev/", "/wiki/"],
+  ["https://wiki.f4.dev", "/wiki"],
+  ["http://wiki.f4.dev/", "/wiki/"],
+  ["http://wiki.f4.dev", "/wiki"],
+  ["https://auth.f4.dev/auth?return_to=https%3A%2F%2Fdownload.f4.dev%2Fdownload-portal%2F", "/download/"],
+  ["https://auth.f4.dev", "/download"],
+  ["http://auth.f4.dev", "/download"],
+];
 
 const ensureDirs = async () => {
   await mkdir(path.join(ROOT, "public"), { recursive: true });
+  await mkdir(path.join(ROOT, "public", "mirror", "lite"), { recursive: true });
+  await mkdir(path.join(ROOT, "public", "mirror", "download"), { recursive: true });
+  await mkdir(path.join(ROOT, "public", "mirror", "docs"), { recursive: true });
+  await mkdir(path.join(ROOT, "public", "mirror", "wiki"), { recursive: true });
   await mkdir(path.join(ROOT, "docs", "design-references"), { recursive: true });
   await mkdir(path.join(ROOT, "docs", "research", "components"), { recursive: true });
+};
+
+const toMirrorFilePath = (sitePath) => {
+  if (sitePath === "/") return path.join(ROOT, "public", "mirror", "index.html");
+  const normalized = sitePath.replace(/^\//, "").replace(/\/$/, "");
+  return path.join(ROOT, "public", "mirror", normalized, "index.html");
+};
+
+const rewriteInternalLinks = (html) => {
+  return URL_REPLACEMENTS.reduce((output, [from, to]) => output.replaceAll(from, to), html);
 };
 
 const run = async () => {
   await ensureDirs();
 
-  const response = await fetch(TARGET_URL);
-  const fullHtml = await response.text();
-  await writeFile(path.join(ROOT, "public", "f4-snapshot.html"), fullHtml, "utf8");
+  for (const target of MIRROR_TARGETS) {
+    const response = await fetch(target.source);
+    const fullHtml = await response.text();
+    const rewritten = rewriteInternalLinks(fullHtml);
+    await writeFile(toMirrorFilePath(target.localPath), rewritten, "utf8");
+  }
 
   const browser = await chromium.launch({ headless: true });
 
@@ -75,7 +123,7 @@ const run = async () => {
       .join("\n")}\n`;
     await writeFile(path.join(ROOT, "docs", "research", "DESIGN_TOKENS.md"), designTokensMd, "utf8");
 
-    const spec = `# HomePage Specification\n\n## Overview\n- **Target file:** \`src/app/page.tsx\`\n- **Screenshot:** \`docs/design-references/f4-desktop-full.png\`\n- **Interaction model:** scroll-driven + hover + time-driven\n\n## DOM Structure\n- Framer-generated app wrapper with section blocks and animated elements.\n\n## Computed Styles (exact values from getComputedStyle)\n- Body backgroundColor: ${recon.body.backgroundColor}\n- Body color: ${recon.body.color}\n- Body fontFamily: ${recon.body.fontFamily}\n\n## States & Behaviors\n- Section entries animate with transforms and opacity changes.\n- Interactive controls include hover transitions and links.\n\n## Per-State Content\n- N/A\n\n## Assets\n- Source snapshot: \`public/f4-snapshot.html\`\n- Favicons/manifest references:\n${recon.links.map((href) => `  - ${href}`).join("\n")}\n\n## Text Content (verbatim)\n${recon.headings.slice(0, 20).map((h) => `- ${h}`).join("\n")}\n\n## Responsive Behavior\n- **Desktop (1440px):** Full multi-section layout.\n- **Mobile (390px):** Condensed stacked layout.\n- **Breakpoint:** managed by Framer runtime CSS and media queries.\n`;
+    const spec = `# HomePage Specification\n\n## Overview\n- **Target file:** \`src/app/[[...slug]]/page.tsx\`\n- **Screenshot:** \`docs/design-references/f4-desktop-full.png\`\n- **Interaction model:** scroll-driven + hover + time-driven\n\n## DOM Structure\n- Framer-generated app wrapper with section blocks and animated elements.\n\n## Computed Styles (exact values from getComputedStyle)\n- Body backgroundColor: ${recon.body.backgroundColor}\n- Body color: ${recon.body.color}\n- Body fontFamily: ${recon.body.fontFamily}\n\n## States & Behaviors\n- Section entries animate with transforms and opacity changes.\n- Interactive controls include hover transitions and links.\n\n## Per-State Content\n- N/A\n\n## Assets\n- Mirrored pages: \`public/mirror/index.html\`, \`public/mirror/lite/index.html\`, \`public/mirror/download/index.html\`, \`public/mirror/docs/index.html\`, \`public/mirror/wiki/index.html\`\n- Favicons/manifest references:\n${recon.links.map((href) => `  - ${href}`).join("\n")}\n\n## Text Content (verbatim)\n${recon.headings.slice(0, 20).map((h) => `- ${h}`).join("\n")}\n\n## Responsive Behavior\n- **Desktop (1440px):** Full multi-section layout.\n- **Mobile (390px):** Condensed stacked layout.\n- **Breakpoint:** managed by Framer runtime CSS and media queries.\n`;
     await writeFile(path.join(ROOT, "docs", "research", "components", "home-page.spec.md"), spec, "utf8");
   } finally {
     await browser.close();
